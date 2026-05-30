@@ -1,2 +1,4 @@
 networkx
 numpy
+Flask==3.0.3
+networkx==3.1
