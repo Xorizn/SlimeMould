@@ -1,6 +1,6 @@
 # Moldslime: Intelligent Pathfinding System
 <p>
-  <img alt="" src="output/50steps.gif" width="1080"/> 
+  <img alt="" src="image/Screenshot-1.png" width="1080"/> 
 </p>
 A dynamic mapping and route-finding platform inspired by the growth patterns of *Physarum polycephalum* (slime mould). Moldslime combines a Node.js backend for API orchestration with Python (NetworkX) for heavy graph computation, simulating the fastest path search across 100 organically connected coordinate nodes.
 
