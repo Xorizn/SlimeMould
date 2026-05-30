@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moldslime Address Mapping</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <aside id="sidebar">
+        <div id="search-container">
+            <h2 style="margin-bottom: 20px; font-size: 1.2rem; color: var(--primary-glow)">Moldslime Routing</h2>
+            
+            <div class="search-group">
+                <label class="search-label">Point A (Start)</label>
+                <input type="text" id="search-input-a" placeholder="Search start address..." onfocus="setFocus('a')">
+            </div>
+
+            <div class="search-group">
+                <label class="search-label">Point B (End)</label>
+                <input type="text" id="search-input-b" placeholder="Search destination..." onfocus="setFocus('b')">
+            </div>
+
+            <button id="btn-find-path" class="btn-route" onclick="calculateRoute()" disabled>Find Fastest Path</button>
+        </div>
+
+        <div id="route-panel" class="route-info-panel">
+            <span class="clear-route" onclick="clearRoute()">Clear Path</span>
+            <div class="section-label">Route Summary</div>
+            <div id="route-summary" style="font-size: 0.9rem; margin-top: 5px;"></div>
+        </div>
+
+        <div id="address-list"></div>
+    </aside>
+
+    <main id="map-container">
+        <canvas id="map-canvas"></canvas>
+        
+        <div id="detail-card">
+            <button class="close-btn" onclick="closeDetail()">&times;</button>
+            <div class="detail-header">
+                <div>
+                    <span class="detail-id" id="val-id">ID: 1</span>
+                    <h3 id="val-title" style="margin-top: 10px; font-size: 1.3rem;">Menteng, Jakarta</h3>
+                </div>
+                <div class="detail-coords" id="val-coords">[30, 48]</div>
+            </div>
+
+            <div class="detail-section">
+                <div class="section-label">Region</div>
+                <div class="section-value" id="val-region">Menteng, Gambir, Jakarta Pusat</div>
+            </div>
+
+            <div class="detail-section" style="display: flex; gap: 20px;">
+                <div>
+                    <div class="section-label">Postcode</div>
+                    <div class="section-value" id="val-postcode">10110</div>
+                </div>
+                <div>
+                    <div class="section-label">Address No.</div>
+                    <div class="section-value" id="val-no">206</div>
+                </div>
+            </div>
+
+            <div class="routes-container" id="routes-list">
+                <div class="section-label">Available Routes</div>
+                <!-- Routes injected here -->
+            </div>
+        </div>
+
+        <div id="status-bar">
+            100 nodes mapped | Hover to inspect | Click to focus
+        </div>
+    </main>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
