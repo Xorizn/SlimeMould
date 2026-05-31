@@ -104,9 +104,3 @@ Edge weights are computed as the Euclidean distance between adjacent nodes, ensu
 
 - [MoeBuTa/SlimeMould](https://github.com/MoeBuTa/SlimeMould/tree/master) — Original slime mould simulation reference implementation.
 - Tero, A. et al. (2010). *Rules for Biologically Inspired Adaptive Network Design*. Science, 327(5964), 439–442.
-
----
-
-## License
-
-This project was developed for academic purposes. You are welcome to extend, modify, and build upon it.
