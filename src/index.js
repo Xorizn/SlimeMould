@@ -14,8 +14,7 @@ app.get('/api/addresses', (req, res) => {
             return res.status(500).json({ error: 'Internal Server Error' });
         }
         try {
-            const jsonData = JSON.parse(data);
-            res.json(jsonData);
+            res.json(JSON.parse(data));
         } catch (parseErr) {
             console.error('Error parsing address.json:', parseErr);
             res.status(500).json({ error: 'Error parsing data' });
@@ -23,7 +22,25 @@ app.get('/api/addresses', (req, res) => {
     });
 });
 
-app.use((req, res) => {
+app.get('/api/path', (req, res) => {
+    const { start, end } = req.query;
+    if (!start || !end) {
+        return res.status(400).json({ success: false, error: 'Parameter start dan end wajib diisi' });
+    }
+
+    res.json({
+        success: true,
+        total_distance: 1500,
+        total_time: 12,
+        path_ids: [parseInt(start), parseInt(end)],
+        path_coords: [
+            { x: 200, y: 200 },
+            { x: 500, y: 500 }
+        ]
+    });
+});
+
+app.get((req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
