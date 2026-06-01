@@ -37,7 +37,7 @@ def run_dijkstra(G, start, end):
         return {"success": False, "path": [], "distance": float('inf'), "time_ms": 0}
 
 def run_sma(G, start, end, max_iter=100):
-    """Simulasi Slime Mold Algorithm (SMA) berbasis pembaharuan konduktivitas tabung."""
+    """Simulasi Slime Mold Algorithm (SMA) dengan perbaikan fitur backtracking."""
     start_time = time.perf_counter()
     
     weights = {edge: 1.0 for edge in G.edges()}
@@ -50,12 +50,27 @@ def run_sma(G, start, end, max_iter=100):
         distance = 0
         visited = set([start])
         
+        # Menyimpan riwayat simpul buntu khusus untuk iterasi berjalan
+        dead_ends = set()
+        
         while current_node != end:
             neighbors = list(G.neighbors(current_node))
-            unvisited_neighbors = [n for n in neighbors if n not in visited]
+            unvisited_neighbors = [n for n in neighbors if n not in visited and n not in dead_ends]
             
             if not unvisited_neighbors:
-                break 
+                # Mekanisme Mundur (Backtracking) jika terjebak di ujung buntu
+                if len(path) > 1:
+                    bad_node = path.pop()
+                    dead_ends.add(bad_node) 
+                    
+                    # Kurangi akumulasi jarak dari simpul yang salah tersebut
+                    prev_node = path[-1]
+                    distance -= G[prev_node][bad_node]['weight']
+                    current_node = prev_node
+                    continue
+                else:
+                    break 
+                
             scores = []
             for n in unvisited_neighbors:
                 w = weights[(current_node, n)]
@@ -69,13 +84,16 @@ def run_sma(G, start, end, max_iter=100):
             path.append(next_node)
             visited.add(next_node)
             current_node = next_node
+            
         if current_node == end:
             if distance < best_distance:
                 best_distance = distance
                 best_path = path
+                
             for i in range(len(path) - 1):
                 edge = (path[i], path[i+1])
                 weights[edge] += 1.0 / (distance + 1e-5)
+                
         for edge in weights:
             weights[edge] *= 0.95 
 

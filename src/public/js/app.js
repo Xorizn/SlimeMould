@@ -23,27 +23,19 @@ let offset = { x: 0, y: 0 };
 const mapSize = 1000;
 
 // ─── RESPONSIVE RESIZE ────────────────────────────────────────────────────────
-// Detects mobile vs desktop and sizes canvas to the ACTUAL available container,
-// then sets canvas.width/height (pixel buffer) to match so nothing is blurry.
 function resize() {
   const isMobile = window.innerWidth <= 768;
-  const TOPBAR_H = 56; // matches --topbar-height in CSS
+  const TOPBAR_H = 56; 
   const SIDEBAR_W = isMobile ? 0 : Math.min(350, window.innerWidth * 0.3);
 
   const availW = window.innerWidth - SIDEBAR_W;
-  const availH = isMobile
-    ? window.innerHeight - TOPBAR_H // exclude topbar on mobile
-    : window.innerHeight;
+  const availH = isMobile ? window.innerHeight - TOPBAR_H : window.innerHeight;
 
-  // Square canvas that fits inside the available area, with a small margin
   const margin = isMobile ? 0 : 0.95;
   const size = Math.floor(Math.min(availW, availH) * (isMobile ? 1 : margin));
 
-  // Set the canvas PIXEL BUFFER — this is what determines sharpness
   canvas.width = size;
   canvas.height = size;
-
-  // Remove any CSS size overrides so the element matches its buffer exactly
   canvas.style.width = size + "px";
   canvas.style.height = size + "px";
 
@@ -51,11 +43,8 @@ function resize() {
 }
 
 // ─── MOUSE / TOUCH COORDINATE HELPER ─────────────────────────────────────────
-// Always derives coordinates from getBoundingClientRect so it works regardless
-// of how the canvas is positioned on screen.
 function canvasCoords(clientX, clientY) {
   const rect = canvas.getBoundingClientRect();
-  // cssScale handles the rare case where CSS size differs from buffer size
   const cssScaleX = canvas.width / rect.width;
   const cssScaleY = canvas.height / rect.height;
   return {
@@ -91,11 +80,9 @@ async function init() {
     searchInputA.addEventListener("input", handleSearch);
     searchInputB.addEventListener("input", handleSearch);
 
-    // Mouse events
     canvas.addEventListener("mousemove", handleMouseMove);
     canvas.addEventListener("click", handleClick);
 
-    // Touch events — so nodes are tappable on mobile
     canvas.addEventListener("touchstart", handleTouchStart, { passive: true });
     canvas.addEventListener("touchmove", handleTouchMove, { passive: true });
 
@@ -137,7 +124,6 @@ function handleTouchMove(e) {
   updateHovered(x / scale, y / scale);
 }
 
-// Touch-end fires after touchstart so we get a proper "tap"
 canvas.addEventListener(
   "touchend",
   (e) => {
@@ -145,7 +131,6 @@ canvas.addEventListener(
     const dx = Math.abs(t.clientX - touchStartX);
     const dy = Math.abs(t.clientY - touchStartY);
 
-    // Only treat as tap if finger barely moved (not a scroll)
     if (dx < 10 && dy < 10) {
       const { x, y } = canvasCoords(t.clientX, t.clientY);
       updateHovered(x / scale, y / scale);
@@ -156,11 +141,9 @@ canvas.addEventListener(
 );
 
 // ─── HOVERED NODE DETECTION ───────────────────────────────────────────────────
-// Shared by mouse and touch so the threshold logic is in one place.
-// On mobile, use a larger tap radius (finger > cursor).
 function updateHovered(mapX, mapY) {
   const isMobile = window.innerWidth <= 768;
-  const threshold = isMobile ? 50 : 30; // units in map space
+  const threshold = isMobile ? 50 : 30;
 
   let closest = null;
   let minDist = threshold;
@@ -227,12 +210,9 @@ function selectAddress(id, scroll = false) {
 
   if (data) {
     document.getElementById("val-id").textContent = `NODE #${data.id}`;
-    document.getElementById("val-title").textContent =
-      `${data.kelurahan}, ${data.kecamatan}`;
-    document.getElementById("val-coords").textContent =
-      `[${data.koordinat.x}, ${data.koordinat.y}]`;
-    document.getElementById("val-region").textContent =
-      `${data.kelurahan}, ${data.kecamatan}, ${data.kota_kabupaten}, ${data.provinsi}`;
+    document.getElementById("val-title").textContent = `${data.kelurahan}, ${data.kecamatan}`;
+    document.getElementById("val-coords").textContent = `[${data.koordinat.x}, ${data.koordinat.y}]`;
+    document.getElementById("val-region").textContent = `${data.kelurahan}, ${data.kecamatan}, ${data.kota_kabupaten}, ${data.provinsi}`;
     document.getElementById("val-postcode").textContent = data.kode_pos;
     document.getElementById("val-no").textContent = data.nomor_alamat;
 
@@ -254,8 +234,6 @@ function selectAddress(id, scroll = false) {
     });
 
     detailCard.classList.add("active");
-
-    // On mobile, auto-close sidebar after selecting a node
     if (window.innerWidth <= 768) closeSidebar();
   }
 }
@@ -263,9 +241,7 @@ function selectAddress(id, scroll = false) {
 function closeDetail() {
   detailCard.classList.remove("active");
   selectedId = null;
-  document
-    .querySelectorAll(".address-item")
-    .forEach((el) => el.classList.remove("selected"));
+  document.querySelectorAll(".address-item").forEach((el) => el.classList.remove("selected"));
 }
 
 // ANIMATION LOOP
@@ -280,9 +256,7 @@ function animate(time) {
   }
 
   if (currentPath) drawPath(currentPath, time);
-
   addressData.forEach((item) => drawNode(item, time));
-
   requestAnimationFrame(animate);
 }
 
@@ -293,15 +267,9 @@ function drawSearchBranches() {
     ctx.globalAlpha = 0.4;
     ctx.lineWidth = 1;
     ctx.beginPath();
-    ctx.moveTo(
-      branch.path[0].koordinat.x * scale,
-      branch.path[0].koordinat.y * scale,
-    );
+    ctx.moveTo(branch.path[0].koordinat.x * scale, branch.path[0].koordinat.y * scale);
     for (let i = 1; i < branch.path.length; i++) {
-      ctx.lineTo(
-        branch.path[i].koordinat.x * scale,
-        branch.path[i].koordinat.y * scale,
-      );
+      ctx.lineTo(branch.path[i].koordinat.x * scale, branch.path[i].koordinat.y * scale);
     }
     ctx.stroke();
 
@@ -309,13 +277,7 @@ function drawSearchBranches() {
     ctx.fillStyle = branch.color;
     ctx.globalAlpha = 0.8;
     ctx.beginPath();
-    ctx.arc(
-      head.koordinat.x * scale,
-      head.koordinat.y * scale,
-      2,
-      0,
-      Math.PI * 2,
-    );
+    ctx.arc(head.koordinat.x * scale, head.koordinat.y * scale, 2, 0, Math.PI * 2);
     ctx.fill();
   });
   ctx.globalAlpha = 1.0;
@@ -427,9 +389,7 @@ function drawNode(item, time) {
 }
 
 function varToHex(varName) {
-  return getComputedStyle(document.documentElement)
-    .getPropertyValue(varName)
-    .trim();
+  return getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
 }
 
 function setFocus(type) {
@@ -452,19 +412,13 @@ async function calculateRoute() {
       currentId: pointA.id,
       path: [pointA],
       finished: false,
-      color:
-        Math.random() > 0.5
-          ? varToHex("--primary-glow")
-          : varToHex("--secondary-glow"),
+      color: Math.random() > 0.5 ? varToHex("--primary-glow") : varToHex("--secondary-glow"),
       speed: 1 + Math.random() * 2,
     });
   }
 
   try {
-    const fetchPromise = fetch(
-      `/api/path?start=${pointA.id}&end=${pointB.id}`,
-    ).then((r) => r.json());
-
+    const fetchPromise = fetch(`/api/path?start=${pointA.id}&end=${pointB.id}`).then((r) => r.json());
     const [result] = await Promise.all([
       fetchPromise,
       new Promise((resolve) => setTimeout(resolve, 2500)),
@@ -497,22 +451,14 @@ function updateSearchBranches() {
     const currNode = addressData.find((n) => n.id === branch.currentId);
     if (!currNode) return;
 
-    const possibleNext = currNode.jalur.filter(
-      (j) => !branch.path.some((p) => p.id === j.target_id),
-    );
+    const possibleNext = currNode.jalur.filter((j) => !branch.path.some((p) => p.id === j.target_id));
 
     if (possibleNext.length > 0) {
       possibleNext.sort((a, b) => {
         const nodeA = addressData.find((n) => n.id === a.target_id);
         const nodeB = addressData.find((n) => n.id === b.target_id);
-        const distA = Math.hypot(
-          nodeA.koordinat.x - pointB.koordinat.x,
-          nodeA.koordinat.y - pointB.koordinat.y,
-        );
-        const distB = Math.hypot(
-          nodeB.koordinat.x - pointB.koordinat.x,
-          nodeB.koordinat.y - pointB.koordinat.y,
-        );
+        const distA = Math.hypot(nodeA.koordinat.x - pointB.koordinat.x, nodeA.koordinat.y - pointB.koordinat.y);
+        const distB = Math.hypot(nodeB.koordinat.x - pointB.koordinat.x, nodeB.koordinat.y - pointB.koordinat.y);
         return distA - distB + (Math.random() - 0.5) * 100;
       });
 
@@ -577,9 +523,7 @@ function closeSidebar() {
 }
 
 function toggleSidebar() {
-  document.getElementById("sidebar").classList.contains("open")
-    ? closeSidebar()
-    : openSidebar();
+  document.getElementById("sidebar").classList.contains("open") ? closeSidebar() : openSidebar();
 }
 
 document.addEventListener("keydown", (e) => {
@@ -589,6 +533,234 @@ document.addEventListener("keydown", (e) => {
 window.addEventListener("resize", () => {
   if (window.innerWidth > 768) closeSidebar();
 });
+
+// ─── LOGIKA SWAP MODE & BENCHMARK DASBOR ──────────────────────────────────────
+let isBenchmarkMode = false;
+let chartWaktuInstance = null;
+let chartKonvergensiInstance = null;
+
+document.getElementById("btn-swap-mode").addEventListener("click", () => {
+  isBenchmarkMode = !isBenchmarkMode;
+  const canvasEl = document.getElementById("map-canvas");
+  const panelEl = document.getElementById("benchmark-panel");
+
+  if (isBenchmarkMode) {
+    canvasEl.style.display = "none";
+    panelEl.style.display = "block";
+    document.getElementById("detail-card").classList.remove("active");
+  } else {
+    canvasEl.style.display = "block";
+    panelEl.style.display = "none";
+  }
+});
+
+document.getElementById("btn-run-bench").addEventListener("click", () => {
+  if (!addressData || addressData.length === 0) {
+    alert("Data alamat belum dimuat dari server.");
+    return;
+  }
+  executeClientBenchmark();
+});
+
+function runClientDijkstra(nodes, startId, endId) {
+  const distances = {};
+  const prev = {};
+  const pq = [];
+  const nodeMap = new Map(nodes.map(n => [n.id, n]));
+
+  nodes.forEach(n => { distances[n.id] = Infinity; prev[n.id] = null; });
+  distances[startId] = 0;
+  pq.push({ id: startId, dist: 0 });
+
+  const startTime = performance.now();
+  while (pq.length > 0) {
+    pq.sort((a, b) => a.dist - b.dist);
+    const curr = pq.shift();
+
+    if (curr.id === endId) break;
+    if (curr.dist > distances[curr.id]) continue;
+
+    const u = nodeMap.get(curr.id);
+    if (!u || !u.jalur) continue;
+
+    for (let edge of u.jalur) {
+      const alt = distances[curr.id] + edge.jarak_meter;
+      if (alt < distances[edge.target_id]) {
+        distances[edge.target_id] = alt;
+        prev[edge.target_id] = curr.id;
+        pq.push({ id: edge.target_id, dist: alt });
+      }
+    }
+  }
+  const timeMs = performance.now() - startTime;
+  return { success: distances[endId] !== Infinity, distance: distances[endId], time_ms: timeMs };
+}
+
+function runClientSMA(nodes, startId, endId, maxIter = 50) {
+  const startTime = performance.now();
+  const nodeMap = new Map(nodes.map(n => [n.id, n]));
+  const weights = {};
+
+  nodes.forEach(u => {
+    if (u.jalur) {
+      u.jalur.forEach(edge => { weights[`${u.id}->${edge.target_id}`] = 1.0; });
+    }
+  });
+
+  let bestDistance = Infinity;
+
+  for (let iter = 0; iter < maxIter; iter++) {
+    let currentNode = startId;
+    let path = [currentNode];
+    let distance = 0;
+    const visited = new Set([startId]);
+    const deadEnds = new Set();
+
+    while (currentNode !== endId) {
+      const u = nodeMap.get(currentNode);
+      if (!u || !u.jalur) break;
+
+      const unvisited = u.jalur.filter(edge => !visited.has(edge.target_id) && !deadEnds.has(edge.target_id));
+
+      if (unvisited.length === 0) {
+        if (path.length > 1) {
+          const badNode = path.pop();
+          deadEnds.add(badNode);
+          const prevNode = path[path.length - 1];
+          const edge = nodeMap.get(prevNode).jalur.find(e => e.target_id === badNode);
+          distance -= edge.jarak_meter;
+          currentNode = prevNode;
+          continue;
+        } else {
+          break;
+        }
+      }
+
+      let scores = [];
+      let sumScores = 0;
+      unvisited.forEach(edge => {
+        const w = weights[`${currentNode}->${edge.target_id}`] || 1.0;
+        const score = w * (1.0 / (edge.jarak_meter + 1e-5));
+        scores.push({ edge, score });
+        sumScores += score;
+      });
+
+      let rand = Math.random() * sumScores;
+      let selectedEdge = unvisited[0];
+      let cumulative = 0;
+      for (let s of scores) {
+        cumulative += s.score;
+        if (rand <= cumulative) { selectedEdge = s.edge; break; }
+      }
+
+      distance += selectedEdge.jarak_meter;
+      currentNode = selectedEdge.target_id;
+      path.push(currentNode);
+      visited.add(currentNode);
+    }
+
+    if (currentNode === endId) {
+      if (distance < bestDistance) bestDistance = distance;
+      for (let i = 0; i < path.length - 1; i++) {
+        const key = `${path[i]}->${path[i+1]}`;
+        weights[key] = (weights[key] || 1.0) + (1.0 / (distance + 1e-5));
+      }
+    }
+
+    for (let key in weights) { weights[key] *= 0.95; }
+  }
+
+  const timeMs = performance.now() - startTime;
+  return { success: bestDistance !== Infinity, distance: bestDistance, time_ms: timeMs };
+}
+
+function executeClientBenchmark() {
+  const scenarios = [
+    { cat: "Dekat", start: 1, end: 2 },
+    { cat: "Dekat", start: 2, end: 11 },
+    { cat: "Jauh", start: 1, end: 100 },
+    { cat: "Jauh", start: 2, end: 99 }
+  ];
+
+  const tbodySkenario = document.getElementById("tbody-skenario");
+  tbodySkenario.innerHTML = "";
+
+  const labelsWaktu = [];
+  const dijTimes = [];
+  const smaTimes = [];
+
+  scenarios.forEach(sc => {
+    const dij = runClientDijkstra(addressData, sc.start, sc.end);
+    const sma = runClientSMA(addressData, sc.start, sc.end, 50);
+
+    if (dij.success && sma.success) {
+      const deviasi = (((sma.distance - dij.distance) / dij.distance) * 100).toFixed(2);
+      tbodySkenario.innerHTML += `
+        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+          <td style="padding: 10px;">Node ${sc.start}->${sc.end} (${sc.cat})</td>
+          <td style="padding: 10px;">${dij.distance}</td>
+          <td style="padding: 10px;">${sma.distance}</td>
+          <td style="padding: 10px; color: ${deviasi == 0 ? '#bfff00' : '#ff4444'}">${deviasi}%</td>
+        </tr>
+      `;
+      labelsWaktu.push(`Node ${sc.start}->${sc.end}`);
+      dijTimes.push(dij.time_ms);
+      smaTimes.push(sma.time_ms);
+    }
+  });
+
+  if (chartWaktuInstance) chartWaktuInstance.destroy();
+  chartWaktuInstance = new Chart(document.getElementById("chartWaktu"), {
+    type: "bar",
+    data: {
+      labels: labelsWaktu,
+      datasets: [
+        { label: "Dijkstra (ms)", data: dijTimes, backgroundColor: "#00f2ff" },
+        { label: "SMA (ms)", data: smaTimes, backgroundColor: "#bfff00" }
+      ]
+    },
+    options: { responsive: true, scales: { y: { ticks: { color: '#888' } } } }
+  });
+
+  const tbodyIterasi = document.getElementById("tbody-iterasi");
+  tbodyIterasi.innerHTML = "";
+  const labelsIter = [];
+  const iterDists = [];
+  const fixedTargetDist = [];
+  const baseDijkstra = runClientDijkstra(addressData, 1, 100);
+
+  [10, 50, 100].forEach(iterCount => {
+    let runs = [];
+    for (let r = 0; r < 3; r++) { runs.push(runClientSMA(addressData, 1, 100, iterCount)); }
+    const validRuns = runs.filter(r => r.success);
+    const avgDist = validRuns.reduce((acc, cur) => acc + cur.distance, 0) / validRuns.length;
+    const avgTime = validRuns.reduce((acc, cur) => acc + cur.time_ms, 0) / validRuns.length;
+
+    tbodyIterasi.innerHTML += `
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <td style="padding: 10px;">${iterCount} Iterasi</td>
+        <td style="padding: 10px;">${avgDist.toFixed(1)}</td>
+        <td style="padding: 10px;">${avgTime.toFixed(4)}</td>
+      </tr>
+    `;
+    labelsIter.push(`${iterCount} Iter`);
+    iterDists.push(avgDist);
+    fixedTargetDist.push(baseDijkstra.distance);
+  });
+
+  if (chartKonvergensiInstance) chartKonvergensiInstance.destroy();
+  chartKonvergensiInstance = new Chart(document.getElementById("chartKonvergensi"), {
+    type: "line",
+    data: {
+      labels: labelsIter,
+      datasets: [
+        { label: "Jarak SMA", data: iterDists, borderColor: "#bfff00", tension: 0.1, fill: false },
+        { label: "Jarak Absolut Dijkstra", data: fixedTargetDist, borderColor: "#00f2ff", borderDash: [5, 5], fill: false }
+      ]
+    },
+    options: { responsive: true }
+  });
+}
 
 // ─── BOOT ─────────────────────────────────────────────────────────────────────
 init();
