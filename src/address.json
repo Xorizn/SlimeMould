@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "koordinat": {
+      "x": 30,
+      "y": 48
+    },
+    "nomor_alamat": 206,
+    "kelurahan": "Koja",
+    "kecamatan": "Grogol Petamburan",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "76333",
+    "jalur": [
+      {
+        "target_id": 2,
+        "route_id": "R1-2",
+        "nama_jalan": "Jl. Flores No. 197",
+        "rt": "RT 002",
+        "rw": "RW 010",
+        "jarak_meter": 949,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 11,
+        "route_id": "R1-11",
+        "nama_jalan": "Jl. Pemuda No. 84",
+        "rt": "RT 008",
+        "rw": "RW 005",
+        "jarak_meter": 1156,
+        "estimasi_menit": 23,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 12,
+        "route_id": "R1-12",
+        "nama_jalan": "Jl. Gatot Subroto No. 136",
+        "rt": "RT 005",
+        "rw": "RW 005",
+        "jarak_meter": 1874,
+        "estimasi_menit": 37,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "koordinat": {
+      "x": 124,
+      "y": 61
+    },
+    "nomor_alamat": 810,
+    "kelurahan": "Palmerah",
+    "kecamatan": "Ciracas",
+    "kota_kabupaten": "Kota Medan",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "55797",
+    "jalur": [
+      {
+        "target_id": 1,
+        "route_id": "R2-1",
+        "nama_jalan": "Jl. Boulevard No. 49",
+        "rt": "RT 004",
+        "rw": "RW 015",
+        "jarak_meter": 949,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 3,
+        "route_id": "R2-3",
+        "nama_jalan": "Jl. Anggrek No. 168",
+        "rt": "RT 009",
+        "rw": "RW 013",
+        "jarak_meter": 1044,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 12,
+        "route_id": "R2-12",
+        "nama_jalan": "Jl. Lorong Baru No. 1",
+        "rt": "RT 006",
+        "rw": "RW 005",
+        "jarak_meter": 1279,
+        "estimasi_menit": 26,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "koordinat": {
+      "x": 227,
+      "y": 78
+    },
+    "nomor_alamat": 205,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Tambora",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "96519",
+    "jalur": [
+      {
+        "target_id": 13,
+        "route_id": "R3-13",
+        "nama_jalan": "Jl. Salak No. 62",
+        "rt": "RT 018",
+        "rw": "RW 006",
+        "jarak_meter": 1039,
+        "estimasi_menit": 21,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 2,
+        "route_id": "R3-2",
+        "nama_jalan": "Jl. Ladang No. 133",
+        "rt": "RT 020",
+        "rw": "RW 013",
+        "jarak_meter": 1044,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 14,
+        "route_id": "R3-14",
+        "nama_jalan": "Jl. Rumah Sakit No. 81",
+        "rt": "RT 005",
+        "rw": "RW 001",
+        "jarak_meter": 1129,
+        "estimasi_menit": 23,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "koordinat": {
+      "x": 364,
+      "y": 63
+    },
+    "nomor_alamat": 636,
+    "kelurahan": "Limo",
+    "kecamatan": "Cempaka Putih",
+    "kota_kabupaten": "Kota Manado",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "68074",
+    "jalur": [
+      {
+        "target_id": 14,
+        "route_id": "R4-14",
+        "nama_jalan": "Jl. Pulau No. 17",
+        "rt": "RT 012",
+        "rw": "RW 012",
+        "jarak_meter": 868,
+        "estimasi_menit": 17,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 15,
+        "route_id": "R4-15",
+        "nama_jalan": "Jl. Tol No. 55",
+        "rt": "RT 011",
+        "rw": "RW 003",
+        "jarak_meter": 956,
+        "estimasi_menit": 19,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 5,
+        "route_id": "R4-5",
+        "nama_jalan": "Jl. Pemuda No. 144",
+        "rt": "RT 015",
+        "rw": "RW 009",
+        "jarak_meter": 1024,
+        "estimasi_menit": 20,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "koordinat": {
+      "x": 447,
+      "y": 3
+    },
+    "nomor_alamat": 193,
+    "kelurahan": "Duren Sawit",
+    "kecamatan": "Kebayoran Lama",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Banten",
+    "kode_pos": "57612",
+    "jalur": [
+      {
+        "target_id": 4,
+        "route_id": "R5-4",
+        "nama_jalan": "Jl. Rambutan No. 116",
+        "rt": "RT 017",
+        "rw": "RW 007",
+        "jarak_meter": 1024,
+        "estimasi_menit": 20,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 6,
+        "route_id": "R5-6",
+        "nama_jalan": "Jl. Imam Bonjol No. 151",
+        "rt": "RT 002",
+        "rw": "RW 003",
+        "jarak_meter": 1063,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 15,
+        "route_id": "R5-15",
+        "nama_jalan": "Jl. Anggrek No. 89",
+        "rt": "RT 018",
+        "rw": "RW 012",
+        "jarak_meter": 1182,
+        "estimasi_menit": 24,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "koordinat": {
+      "x": 553,
+      "y": 11
+    },
+    "nomor_alamat": 489,
+    "kelurahan": "Cipayung",
+    "kecamatan": "Koja",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "20924",
+    "jalur": [
+      {
+        "target_id": 7,
+        "route_id": "R6-7",
+        "nama_jalan": "Jl. Gatot Subroto No. 87",
+        "rt": "RT 005",
+        "rw": "RW 013",
+        "jarak_meter": 792,
+        "estimasi_menit": 16,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 16,
+        "route_id": "R6-16",
+        "nama_jalan": "Jl. Rumah Sakit No. 153",
+        "rt": "RT 015",
+        "rw": "RW 015",
+        "jarak_meter": 999,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 5,
+        "route_id": "R6-5",
+        "nama_jalan": "Jl. Jendral Sudirman No. 159",
+        "rt": "RT 001",
+        "rw": "RW 001",
+        "jarak_meter": 1063,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "koordinat": {
+      "x": 632,
+      "y": 16
+    },
+    "nomor_alamat": 391,
+    "kelurahan": "Kramat Jati",
+    "kecamatan": "Kebon Jeruk",
+    "kota_kabupaten": "Kota Surabaya",
+    "provinsi": "Banten",
+    "kode_pos": "20273",
+    "jalur": [
+      {
+        "target_id": 6,
+        "route_id": "R7-6",
+        "nama_jalan": "Jl. Gang Makmur No. 163",
+        "rt": "RT 020",
+        "rw": "RW 001",
+        "jarak_meter": 792,
+        "estimasi_menit": 16,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 16,
+        "route_id": "R7-16",
+        "nama_jalan": "Jl. Pulau No. 135",
+        "rt": "RT 012",
+        "rw": "RW 007",
+        "jarak_meter": 1020,
+        "estimasi_menit": 20,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 8,
+        "route_id": "R7-8",
+        "nama_jalan": "Jl. Hayam Wuruk No. 31",
+        "rt": "RT 004",
+        "rw": "RW 015",
+        "jarak_meter": 1084,
+        "estimasi_menit": 22,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "koordinat": {
+      "x": 726,
+      "y": 70
+    },
+    "nomor_alamat": 736,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Pesanggrahan",
+    "kota_kabupaten": "Tangerang Selatan",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "50664",
+    "jalur": [
+      {
+        "target_id": 18,
+        "route_id": "R8-18",
+        "nama_jalan": "Jl. Pinus No. 1",
+        "rt": "RT 008",
+        "rw": "RW 013",
+        "jarak_meter": 953,
+        "estimasi_menit": 19,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 7,
+        "route_id": "R8-7",
+        "nama_jalan": "Jl. Pelabuhan No. 171",
+        "rt": "RT 007",
+        "rw": "RW 004",
+        "jarak_meter": 1084,
+        "estimasi_menit": 22,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 9,
+        "route_id": "R8-9",
+        "nama_jalan": "Jl. Tanjung No. 95",
+        "rt": "RT 013",
+        "rw": "RW 011",
+        "jarak_meter": 1372,
+        "estimasi_menit": 27,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "koordinat": {
+      "x": 863,
+      "y": 62
+    },
+    "nomor_alamat": 978,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Cilincing",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "48589",
+    "jalur": [
+      {
+        "target_id": 19,
+        "route_id": "R9-19",
+        "nama_jalan": "Jl. Imam Bonjol No. 11",
+        "rt": "RT 009",
+        "rw": "RW 004",
+        "jarak_meter": 740,
+        "estimasi_menit": 15,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 10,
+        "route_id": "R9-10",
+        "nama_jalan": "Jl. A. Rivai No. 96",
+        "rt": "RT 012",
+        "rw": "RW 007",
+        "jarak_meter": 1158,
+        "estimasi_menit": 23,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 8,
+        "route_id": "R9-8",
+        "nama_jalan": "Jl. Laut No. 160",
+        "rt": "RT 020",
+        "rw": "RW 010",
+        "jarak_meter": 1372,
+        "estimasi_menit": 27,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "koordinat": {
+      "x": 974,
+      "y": 29
+    },
+    "nomor_alamat": 877,
+    "kelurahan": "Setiabudi",
+    "kecamatan": "Tambora",
+    "kota_kabupaten": "Kota Samarinda",
+    "provinsi": "Banten",
+    "kode_pos": "18464",
+    "jalur": [
+      {
+        "target_id": 9,
+        "route_id": "R10-9",
+        "nama_jalan": "Jl. Pahlawan No. 70",
+        "rt": "RT 017",
+        "rw": "RW 014",
+        "jarak_meter": 1158,
+        "estimasi_menit": 23,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 20,
+        "route_id": "R10-20",
+        "nama_jalan": "Jl. Puskesmas No. 42",
+        "rt": "RT 017",
+        "rw": "RW 008",
+        "jarak_meter": 1392,
+        "estimasi_menit": 28,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 19,
+        "route_id": "R10-19",
+        "nama_jalan": "Jl. Beringin No. 192",
+        "rt": "RT 017",
+        "rw": "RW 006",
+        "jarak_meter": 1450,
+        "estimasi_menit": 29,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "koordinat": {
+      "x": 18,
+      "y": 163
+    },
+    "nomor_alamat": 808,
+    "kelurahan": "Kebayoran Lama",
+    "kecamatan": "Kemayoran",
+    "kota_kabupaten": "Kota Banjarmasin",
+    "provinsi": "Riau",
+    "kode_pos": "56004",
+    "jalur": [
+      {
+        "target_id": 21,
+        "route_id": "R11-21",
+        "nama_jalan": "Jl. Bandara No. 192",
+        "rt": "RT 012",
+        "rw": "RW 013",
+        "jarak_meter": 1064,
+        "estimasi_menit": 21,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 1,
+        "route_id": "R11-1",
+        "nama_jalan": "Jl. Raya Darmo No. 117",
+        "rt": "RT 008",
+        "rw": "RW 001",
+        "jarak_meter": 1156,
+        "estimasi_menit": 23,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 22,
+        "route_id": "R11-22",
+        "nama_jalan": "Jl. Ladang No. 17",
+        "rt": "RT 016",
+        "rw": "RW 010",
+        "jarak_meter": 1229,
+        "estimasi_menit": 25,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "koordinat": {
+      "x": 159,
+      "y": 184
+    },
+    "nomor_alamat": 498,
+    "kelurahan": "Pesanggrahan",
+    "kecamatan": "Pancoran",
+    "kota_kabupaten": "Kota Surabaya",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "84600",
+    "jalur": [
+      {
+        "target_id": 22,
+        "route_id": "R12-22",
+        "nama_jalan": "Jl. Mawar No. 24",
+        "rt": "RT 002",
+        "rw": "RW 006",
+        "jarak_meter": 368,
+        "estimasi_menit": 7,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 13,
+        "route_id": "R12-13",
+        "nama_jalan": "Jl. Dahlia No. 12",
+        "rt": "RT 008",
+        "rw": "RW 001",
+        "jarak_meter": 541,
+        "estimasi_menit": 11,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 23,
+        "route_id": "R12-23",
+        "nama_jalan": "Jl. Sultan Agung No. 115",
+        "rt": "RT 004",
+        "rw": "RW 001",
+        "jarak_meter": 918,
+        "estimasi_menit": 18,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "koordinat": {
+      "x": 213,
+      "y": 181
+    },
+    "nomor_alamat": 482,
+    "kelurahan": "Pesanggrahan",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Kota Bekasi",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "32432",
+    "jalur": [
+      {
+        "target_id": 12,
+        "route_id": "R13-12",
+        "nama_jalan": "Jl. Kenanga No. 44",
+        "rt": "RT 019",
+        "rw": "RW 001",
+        "jarak_meter": 541,
+        "estimasi_menit": 11,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 23,
+        "route_id": "R13-23",
+        "nama_jalan": "Jl. Boulevard No. 180",
+        "rt": "RT 002",
+        "rw": "RW 003",
+        "jarak_meter": 751,
+        "estimasi_menit": 15,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 22,
+        "route_id": "R13-22",
+        "nama_jalan": "Jl. Gajah Mada No. 102",
+        "rt": "RT 007",
+        "rw": "RW 004",
+        "jarak_meter": 857,
+        "estimasi_menit": 17,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "koordinat": {
+      "x": 322,
+      "y": 139
+    },
+    "nomor_alamat": 324,
+    "kelurahan": "Kalideres",
+    "kecamatan": "Kemayoran",
+    "kota_kabupaten": "Jakarta Selatan",
+    "provinsi": "Bali",
+    "kode_pos": "48779",
+    "jalur": [
+      {
+        "target_id": 24,
+        "route_id": "R14-24",
+        "nama_jalan": "Jl. Gunung No. 25",
+        "rt": "RT 002",
+        "rw": "RW 001",
+        "jarak_meter": 560,
+        "estimasi_menit": 11,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 4,
+        "route_id": "R14-4",
+        "nama_jalan": "Jl. Bambu No. 100",
+        "rt": "RT 002",
+        "rw": "RW 014",
+        "jarak_meter": 868,
+        "estimasi_menit": 17,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 3,
+        "route_id": "R14-3",
+        "nama_jalan": "Jl. Sekolah No. 160",
+        "rt": "RT 009",
+        "rw": "RW 008",
+        "jarak_meter": 1129,
+        "estimasi_menit": 23,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "koordinat": {
+      "x": 440,
+      "y": 121
+    },
+    "nomor_alamat": 59,
+    "kelurahan": "Tanjung Priok",
+    "kecamatan": "Penjaringan",
+    "kota_kabupaten": "Kota Banjarmasin",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "66368",
+    "jalur": [
+      {
+        "target_id": 4,
+        "route_id": "R15-4",
+        "nama_jalan": "Jl. Utama No. 151",
+        "rt": "RT 003",
+        "rw": "RW 012",
+        "jarak_meter": 956,
+        "estimasi_menit": 19,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 25,
+        "route_id": "R15-25",
+        "nama_jalan": "Jl. Anggrek No. 152",
+        "rt": "RT 017",
+        "rw": "RW 010",
+        "jarak_meter": 1072,
+        "estimasi_menit": 21,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 5,
+        "route_id": "R15-5",
+        "nama_jalan": "Jl. Plaza No. 99",
+        "rt": "RT 008",
+        "rw": "RW 009",
+        "jarak_meter": 1182,
+        "estimasi_menit": 24,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "koordinat": {
+      "x": 584,
+      "y": 106
+    },
+    "nomor_alamat": 515,
+    "kelurahan": "Kalideres",
+    "kecamatan": "Taman Sari",
+    "kota_kabupaten": "Jakarta Pusat",
+    "provinsi": "Bali",
+    "kode_pos": "24708",
+    "jalur": [
+      {
+        "target_id": 17,
+        "route_id": "R16-17",
+        "nama_jalan": "Jl. Mangga No. 39",
+        "rt": "RT 015",
+        "rw": "RW 012",
+        "jarak_meter": 816,
+        "estimasi_menit": 16,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 6,
+        "route_id": "R16-6",
+        "nama_jalan": "Jl. Perdagangan No. 115",
+        "rt": "RT 009",
+        "rw": "RW 006",
+        "jarak_meter": 999,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 7,
+        "route_id": "R16-7",
+        "nama_jalan": "Jl. Ladang No. 8",
+        "rt": "RT 001",
+        "rw": "RW 008",
+        "jarak_meter": 1020,
+        "estimasi_menit": 20,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "koordinat": {
+      "x": 632,
+      "y": 172
+    },
+    "nomor_alamat": 237,
+    "kelurahan": "Pancoran",
+    "kecamatan": "Cakung",
+    "kota_kabupaten": "Kota Banjarmasin",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "74790",
+    "jalur": [
+      {
+        "target_id": 27,
+        "route_id": "R17-27",
+        "nama_jalan": "Jl. Kelurahan No. 153",
+        "rt": "RT 007",
+        "rw": "RW 011",
+        "jarak_meter": 793,
+        "estimasi_menit": 16,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 16,
+        "route_id": "R17-16",
+        "nama_jalan": "Jl. Provinsi No. 132",
+        "rt": "RT 010",
+        "rw": "RW 013",
+        "jarak_meter": 816,
+        "estimasi_menit": 16,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 18,
+        "route_id": "R17-18",
+        "nama_jalan": "Jl. Imam Bonjol No. 76",
+        "rt": "RT 013",
+        "rw": "RW 012",
+        "jarak_meter": 1154,
+        "estimasi_menit": 23,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "koordinat": {
+      "x": 747,
+      "y": 163
+    },
+    "nomor_alamat": 498,
+    "kelurahan": "Jatinegara",
+    "kecamatan": "Cipayung",
+    "kota_kabupaten": "Tangerang Selatan",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "29914",
+    "jalur": [
+      {
+        "target_id": 8,
+        "route_id": "R18-8",
+        "nama_jalan": "Jl. Teuku Umar No. 176",
+        "rt": "RT 010",
+        "rw": "RW 005",
+        "jarak_meter": 953,
+        "estimasi_menit": 19,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 28,
+        "route_id": "R18-28",
+        "nama_jalan": "Jl. Hayam Wuruk No. 34",
+        "rt": "RT 018",
+        "rw": "RW 015",
+        "jarak_meter": 1139,
+        "estimasi_menit": 23,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 17,
+        "route_id": "R18-17",
+        "nama_jalan": "Jl. Bank No. 56",
+        "rt": "RT 009",
+        "rw": "RW 014",
+        "jarak_meter": 1154,
+        "estimasi_menit": 23,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "koordinat": {
+      "x": 875,
+      "y": 135
+    },
+    "nomor_alamat": 919,
+    "kelurahan": "Ciracas",
+    "kecamatan": "Mampang Prapatan",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Riau",
+    "kode_pos": "16076",
+    "jalur": [
+      {
+        "target_id": 9,
+        "route_id": "R19-9",
+        "nama_jalan": "Jl. Jawa No. 111",
+        "rt": "RT 002",
+        "rw": "RW 011",
+        "jarak_meter": 740,
+        "estimasi_menit": 15,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 20,
+        "route_id": "R19-20",
+        "nama_jalan": "Jl. Nasional No. 170",
+        "rt": "RT 019",
+        "rw": "RW 003",
+        "jarak_meter": 871,
+        "estimasi_menit": 17,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 18,
+        "route_id": "R19-18",
+        "nama_jalan": "Jl. Sumatra No. 36",
+        "rt": "RT 008",
+        "rw": "RW 012",
+        "jarak_meter": 1310,
+        "estimasi_menit": 26,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "koordinat": {
+      "x": 956,
+      "y": 167
+    },
+    "nomor_alamat": 940,
+    "kelurahan": "Kembangan",
+    "kecamatan": "Pancoran",
+    "kota_kabupaten": "Kota Yogyakarta",
+    "provinsi": "Banten",
+    "kode_pos": "51573",
+    "jalur": [
+      {
+        "target_id": 30,
+        "route_id": "R20-30",
+        "nama_jalan": "Jl. Niaga No. 188",
+        "rt": "RT 005",
+        "rw": "RW 006",
+        "jarak_meter": 630,
+        "estimasi_menit": 13,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 19,
+        "route_id": "R20-19",
+        "nama_jalan": "Jl. Terminal No. 150",
+        "rt": "RT 006",
+        "rw": "RW 009",
+        "jarak_meter": 871,
+        "estimasi_menit": 17,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 10,
+        "route_id": "R20-10",
+        "nama_jalan": "Jl. Masjid No. 100",
+        "rt": "RT 008",
+        "rw": "RW 002",
+        "jarak_meter": 1392,
+        "estimasi_menit": 28,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "koordinat": {
+      "x": 57,
+      "y": 262
+    },
+    "nomor_alamat": 237,
+    "kelurahan": "Tanah Abang",
+    "kecamatan": "Mampang Prapatan",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "50332",
+    "jalur": [
+      {
+        "target_id": 32,
+        "route_id": "R21-32",
+        "nama_jalan": "Jl. Jawa No. 41",
+        "rt": "RT 017",
+        "rw": "RW 003",
+        "jarak_meter": 781,
+        "estimasi_menit": 16,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 22,
+        "route_id": "R21-22",
+        "nama_jalan": "Jl. Sekolah No. 134",
+        "rt": "RT 018",
+        "rw": "RW 008",
+        "jarak_meter": 918,
+        "estimasi_menit": 18,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 11,
+        "route_id": "R21-11",
+        "nama_jalan": "Jl. Pelabuhan No. 38",
+        "rt": "RT 015",
+        "rw": "RW 005",
+        "jarak_meter": 1064,
+        "estimasi_menit": 21,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "koordinat": {
+      "x": 132,
+      "y": 209
+    },
+    "nomor_alamat": 419,
+    "kelurahan": "Kebon Jeruk",
+    "kecamatan": "Tanjung Priok",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "26489",
+    "jalur": [
+      {
+        "target_id": 12,
+        "route_id": "R22-12",
+        "nama_jalan": "Jl. Trans No. 132",
+        "rt": "RT 001",
+        "rw": "RW 005",
+        "jarak_meter": 368,
+        "estimasi_menit": 7,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 13,
+        "route_id": "R22-13",
+        "nama_jalan": "Jl. Kelurahan No. 174",
+        "rt": "RT 016",
+        "rw": "RW 011",
+        "jarak_meter": 857,
+        "estimasi_menit": 17,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 21,
+        "route_id": "R22-21",
+        "nama_jalan": "Jl. Melati No. 188",
+        "rt": "RT 012",
+        "rw": "RW 007",
+        "jarak_meter": 918,
+        "estimasi_menit": 18,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "koordinat": {
+      "x": 216,
+      "y": 256
+    },
+    "nomor_alamat": 379,
+    "kelurahan": "Cipayung",
+    "kecamatan": "Tanah Abang",
+    "kota_kabupaten": "Kota Tangerang",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "75342",
+    "jalur": [
+      {
+        "target_id": 13,
+        "route_id": "R23-13",
+        "nama_jalan": "Jl. Ahmad Yani No. 2",
+        "rt": "RT 002",
+        "rw": "RW 001",
+        "jarak_meter": 751,
+        "estimasi_menit": 15,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 12,
+        "route_id": "R23-12",
+        "nama_jalan": "Jl. Mawar No. 152",
+        "rt": "RT 006",
+        "rw": "RW 002",
+        "jarak_meter": 918,
+        "estimasi_menit": 18,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 22,
+        "route_id": "R23-22",
+        "nama_jalan": "Jl. Bank No. 77",
+        "rt": "RT 010",
+        "rw": "RW 001",
+        "jarak_meter": 963,
+        "estimasi_menit": 19,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "koordinat": {
+      "x": 323,
+      "y": 195
+    },
+    "nomor_alamat": 545,
+    "kelurahan": "Cipayung",
+    "kecamatan": "Ciracas",
+    "kota_kabupaten": "Jakarta Pusat",
+    "provinsi": "Banten",
+    "kode_pos": "43897",
+    "jalur": [
+      {
+        "target_id": 14,
+        "route_id": "R24-14",
+        "nama_jalan": "Jl. Pantai No. 194",
+        "rt": "RT 016",
+        "rw": "RW 012",
+        "jarak_meter": 560,
+        "estimasi_menit": 11,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 25,
+        "route_id": "R24-25",
+        "nama_jalan": "Jl. Cemara No. 107",
+        "rt": "RT 002",
+        "rw": "RW 006",
+        "jarak_meter": 958,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 13,
+        "route_id": "R24-13",
+        "nama_jalan": "Jl. Raya Besar No. 29",
+        "rt": "RT 001",
+        "rw": "RW 014",
+        "jarak_meter": 1109,
+        "estimasi_menit": 22,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "koordinat": {
+      "x": 414,
+      "y": 225
+    },
+    "nomor_alamat": 557,
+    "kelurahan": "Kebayoran Lama",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Tangerang Selatan",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "98156",
+    "jalur": [
+      {
+        "target_id": 24,
+        "route_id": "R25-24",
+        "nama_jalan": "Jl. Kebun No. 158",
+        "rt": "RT 017",
+        "rw": "RW 015",
+        "jarak_meter": 958,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 26,
+        "route_id": "R25-26",
+        "nama_jalan": "Jl. Sawah No. 9",
+        "rt": "RT 009",
+        "rw": "RW 009",
+        "jarak_meter": 971,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 15,
+        "route_id": "R25-15",
+        "nama_jalan": "Jl. Riau No. 126",
+        "rt": "RT 020",
+        "rw": "RW 009",
+        "jarak_meter": 1072,
+        "estimasi_menit": 21,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "koordinat": {
+      "x": 509,
+      "y": 245
+    },
+    "nomor_alamat": 233,
+    "kelurahan": "Koja",
+    "kecamatan": "Menteng",
+    "kota_kabupaten": "Kota Bogor",
+    "provinsi": "Sulawesi Selatan",
+    "kode_pos": "44156",
+    "jalur": [
+      {
+        "target_id": 25,
+        "route_id": "R26-25",
+        "nama_jalan": "Jl. Cut Nyak Dien No. 75",
+        "rt": "RT 010",
+        "rw": "RW 013",
+        "jarak_meter": 971,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 36,
+        "route_id": "R26-36",
+        "nama_jalan": "Jl. Ahmad Yani No. 66",
+        "rt": "RT 015",
+        "rw": "RW 004",
+        "jarak_meter": 1022,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 27,
+        "route_id": "R26-27",
+        "nama_jalan": "Jl. Rumah Sakit No. 169",
+        "rt": "RT 017",
+        "rw": "RW 001",
+        "jarak_meter": 1041,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "koordinat": {
+      "x": 613,
+      "y": 249
+    },
+    "nomor_alamat": 158,
+    "kelurahan": "Penjaringan",
+    "kecamatan": "Tebet",
+    "kota_kabupaten": "Kota Tangerang",
+    "provinsi": "Riau",
+    "kode_pos": "10110",
+    "jalur": [
+      {
+        "target_id": 17,
+        "route_id": "R27-17",
+        "nama_jalan": "Jl. Ladang No. 195",
+        "rt": "RT 003",
+        "rw": "RW 013",
+        "jarak_meter": 793,
+        "estimasi_menit": 16,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 28,
+        "route_id": "R27-28",
+        "nama_jalan": "Jl. Jawa No. 112",
+        "rt": "RT 006",
+        "rw": "RW 011",
+        "jarak_meter": 1036,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 26,
+        "route_id": "R27-26",
+        "nama_jalan": "Jl. Sultan Agung No. 144",
+        "rt": "RT 015",
+        "rw": "RW 003",
+        "jarak_meter": 1041,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "koordinat": {
+      "x": 714,
+      "y": 272
+    },
+    "nomor_alamat": 191,
+    "kelurahan": "Kuningan",
+    "kecamatan": "Senen",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "30244",
+    "jalur": [
+      {
+        "target_id": 38,
+        "route_id": "R28-38",
+        "nama_jalan": "Jl. Bambu No. 145",
+        "rt": "RT 016",
+        "rw": "RW 007",
+        "jarak_meter": 894,
+        "estimasi_menit": 18,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 27,
+        "route_id": "R28-27",
+        "nama_jalan": "Jl. Gereja No. 82",
+        "rt": "RT 008",
+        "rw": "RW 014",
+        "jarak_meter": 1036,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 18,
+        "route_id": "R28-18",
+        "nama_jalan": "Jl. Raya Besar No. 129",
+        "rt": "RT 014",
+        "rw": "RW 010",
+        "jarak_meter": 1139,
+        "estimasi_menit": 23,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "koordinat": {
+      "x": 836,
+      "y": 263
+    },
+    "nomor_alamat": 220,
+    "kelurahan": "Cilincing",
+    "kecamatan": "Cempaka Putih",
+    "kota_kabupaten": "Kota Medan",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "29982",
+    "jalur": [
+      {
+        "target_id": 39,
+        "route_id": "R29-39",
+        "nama_jalan": "Jl. Sekolah No. 98",
+        "rt": "RT 008",
+        "rw": "RW 009",
+        "jarak_meter": 643,
+        "estimasi_menit": 13,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 38,
+        "route_id": "R29-38",
+        "nama_jalan": "Jl. Mangga No. 11",
+        "rt": "RT 015",
+        "rw": "RW 013",
+        "jarak_meter": 861,
+        "estimasi_menit": 17,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 28,
+        "route_id": "R29-28",
+        "nama_jalan": "Jl. Boulevard No. 46",
+        "rt": "RT 002",
+        "rw": "RW 015",
+        "jarak_meter": 1223,
+        "estimasi_menit": 24,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "koordinat": {
+      "x": 978,
+      "y": 226
+    },
+    "nomor_alamat": 881,
+    "kelurahan": "Makasar",
+    "kecamatan": "Jatinegara",
+    "kota_kabupaten": "Kabupaten Bekasi",
+    "provinsi": "Kalimantan Selatan",
+    "kode_pos": "82880",
+    "jalur": [
+      {
+        "target_id": 20,
+        "route_id": "R30-20",
+        "nama_jalan": "Jl. Sultan Agung No. 149",
+        "rt": "RT 010",
+        "rw": "RW 002",
+        "jarak_meter": 630,
+        "estimasi_menit": 13,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 19,
+        "route_id": "R30-19",
+        "nama_jalan": "Jl. Anggrek No. 54",
+        "rt": "RT 005",
+        "rw": "RW 011",
+        "jarak_meter": 1374,
+        "estimasi_menit": 27,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 40,
+        "route_id": "R30-40",
+        "nama_jalan": "Jl. Beringin No. 103",
+        "rt": "RT 013",
+        "rw": "RW 015",
+        "jarak_meter": 1388,
+        "estimasi_menit": 28,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "koordinat": {
+      "x": 82,
+      "y": 373
+    },
+    "nomor_alamat": 771,
+    "kelurahan": "Duren Sawit",
+    "kecamatan": "Tebet",
+    "kota_kabupaten": "Kabupaten Bogor",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "54195",
+    "jalur": [
+      {
+        "target_id": 32,
+        "route_id": "R31-32",
+        "nama_jalan": "Jl. Nasional No. 98",
+        "rt": "RT 019",
+        "rw": "RW 006",
+        "jarak_meter": 568,
+        "estimasi_menit": 11,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 41,
+        "route_id": "R31-41",
+        "nama_jalan": "Jl. Sungai No. 88",
+        "rt": "RT 004",
+        "rw": "RW 009",
+        "jarak_meter": 981,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 42,
+        "route_id": "R31-42",
+        "nama_jalan": "Jl. Bambu No. 27",
+        "rt": "RT 018",
+        "rw": "RW 012",
+        "jarak_meter": 1128,
+        "estimasi_menit": 23,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "koordinat": {
+      "x": 107,
+      "y": 322
+    },
+    "nomor_alamat": 977,
+    "kelurahan": "Kebon Jeruk",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "39694",
+    "jalur": [
+      {
+        "target_id": 31,
+        "route_id": "R32-31",
+        "nama_jalan": "Jl. Kabupaten No. 85",
+        "rt": "RT 005",
+        "rw": "RW 015",
+        "jarak_meter": 568,
+        "estimasi_menit": 11,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 21,
+        "route_id": "R32-21",
+        "nama_jalan": "Jl. Dahlia No. 67",
+        "rt": "RT 009",
+        "rw": "RW 008",
+        "jarak_meter": 781,
+        "estimasi_menit": 16,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 22,
+        "route_id": "R32-22",
+        "nama_jalan": "Jl. Hutan No. 21",
+        "rt": "RT 001",
+        "rw": "RW 004",
+        "jarak_meter": 1157,
+        "estimasi_menit": 23,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "koordinat": {
+      "x": 216,
+      "y": 368
+    },
+    "nomor_alamat": 989,
+    "kelurahan": "Kemayoran",
+    "kecamatan": "Tebet",
+    "kota_kabupaten": "Kota Manado",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "77538",
+    "jalur": [
+      {
+        "target_id": 43,
+        "route_id": "R33-43",
+        "nama_jalan": "Jl. Anggrek No. 176",
+        "rt": "RT 001",
+        "rw": "RW 001",
+        "jarak_meter": 759,
+        "estimasi_menit": 15,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 44,
+        "route_id": "R33-44",
+        "nama_jalan": "Jl. Mangga No. 8",
+        "rt": "RT 019",
+        "rw": "RW 005",
+        "jarak_meter": 959,
+        "estimasi_menit": 19,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 23,
+        "route_id": "R33-23",
+        "nama_jalan": "Jl. Bukit No. 63",
+        "rt": "RT 011",
+        "rw": "RW 010",
+        "jarak_meter": 1120,
+        "estimasi_menit": 22,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "koordinat": {
+      "x": 336,
+      "y": 370
+    },
+    "nomor_alamat": 46,
+    "kelurahan": "Mampang",
+    "kecamatan": "Kembangan",
+    "kota_kabupaten": "Kota Banjarmasin",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "84857",
+    "jalur": [
+      {
+        "target_id": 44,
+        "route_id": "R34-44",
+        "nama_jalan": "Jl. Gatot Subroto No. 42",
+        "rt": "RT 018",
+        "rw": "RW 004",
+        "jarak_meter": 482,
+        "estimasi_menit": 10,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 33,
+        "route_id": "R34-33",
+        "nama_jalan": "Jl. Sulawesi No. 74",
+        "rt": "RT 011",
+        "rw": "RW 006",
+        "jarak_meter": 1200,
+        "estimasi_menit": 24,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 35,
+        "route_id": "R34-35",
+        "nama_jalan": "Jl. Diponegoro No. 174",
+        "rt": "RT 002",
+        "rw": "RW 007",
+        "jarak_meter": 1238,
+        "estimasi_menit": 25,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "koordinat": {
+      "x": 458,
+      "y": 349
+    },
+    "nomor_alamat": 489,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Kebayoran Lama",
+    "kota_kabupaten": "Kota Bekasi",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "81004",
+    "jalur": [
+      {
+        "target_id": 36,
+        "route_id": "R35-36",
+        "nama_jalan": "Jl. Timor No. 135",
+        "rt": "RT 020",
+        "rw": "RW 011",
+        "jarak_meter": 440,
+        "estimasi_menit": 9,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 26,
+        "route_id": "R35-26",
+        "nama_jalan": "Jl. Sungai No. 128",
+        "rt": "RT 013",
+        "rw": "RW 015",
+        "jarak_meter": 1158,
+        "estimasi_menit": 23,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 45,
+        "route_id": "R35-45",
+        "nama_jalan": "Jl. Bougenville No. 163",
+        "rt": "RT 011",
+        "rw": "RW 007",
+        "jarak_meter": 1181,
+        "estimasi_menit": 24,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "koordinat": {
+      "x": 502,
+      "y": 347
+    },
+    "nomor_alamat": 580,
+    "kelurahan": "Ciracas",
+    "kecamatan": "Taman Sari",
+    "kota_kabupaten": "Kota Bekasi",
+    "provinsi": "Bali",
+    "kode_pos": "33447",
+    "jalur": [
+      {
+        "target_id": 35,
+        "route_id": "R36-35",
+        "nama_jalan": "Jl. Pinus No. 198",
+        "rt": "RT 015",
+        "rw": "RW 011",
+        "jarak_meter": 440,
+        "estimasi_menit": 9,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 26,
+        "route_id": "R36-26",
+        "nama_jalan": "Jl. Anggrek No. 136",
+        "rt": "RT 006",
+        "rw": "RW 014",
+        "jarak_meter": 1022,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 46,
+        "route_id": "R36-46",
+        "nama_jalan": "Jl. Gereja No. 198",
+        "rt": "RT 001",
+        "rw": "RW 004",
+        "jarak_meter": 1209,
+        "estimasi_menit": 24,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "koordinat": {
+      "x": 622,
+      "y": 367
+    },
+    "nomor_alamat": 66,
+    "kelurahan": "Kembangan",
+    "kecamatan": "Kebayoran Baru",
+    "kota_kabupaten": "Jakarta Barat",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "78034",
+    "jalur": [
+      {
+        "target_id": 47,
+        "route_id": "R37-47",
+        "nama_jalan": "Jl. Sudirman No. 24",
+        "rt": "RT 008",
+        "rw": "RW 002",
+        "jarak_meter": 1123,
+        "estimasi_menit": 22,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 27,
+        "route_id": "R37-27",
+        "nama_jalan": "Jl. Kelurahan No. 74",
+        "rt": "RT 001",
+        "rw": "RW 005",
+        "jarak_meter": 1183,
+        "estimasi_menit": 24,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 36,
+        "route_id": "R37-36",
+        "nama_jalan": "Jl. Hang Tuah No. 187",
+        "rt": "RT 015",
+        "rw": "RW 002",
+        "jarak_meter": 1217,
+        "estimasi_menit": 24,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "koordinat": {
+      "x": 782,
+      "y": 330
+    },
+    "nomor_alamat": 7,
+    "kelurahan": "Penjagalan",
+    "kecamatan": "Jagakarsa",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "65315",
+    "jalur": [
+      {
+        "target_id": 39,
+        "route_id": "R38-39",
+        "nama_jalan": "Jl. Desa No. 182",
+        "rt": "RT 015",
+        "rw": "RW 013",
+        "jarak_meter": 712,
+        "estimasi_menit": 14,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 29,
+        "route_id": "R38-29",
+        "nama_jalan": "Jl. Hutan No. 34",
+        "rt": "RT 017",
+        "rw": "RW 006",
+        "jarak_meter": 861,
+        "estimasi_menit": 17,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 28,
+        "route_id": "R38-28",
+        "nama_jalan": "Jl. Cempaka Putih No. 30",
+        "rt": "RT 001",
+        "rw": "RW 011",
+        "jarak_meter": 894,
+        "estimasi_menit": 18,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "koordinat": {
+      "x": 853,
+      "y": 325
+    },
+    "nomor_alamat": 747,
+    "kelurahan": "Pesanggrahan",
+    "kecamatan": "Pademangan",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "35004",
+    "jalur": [
+      {
+        "target_id": 29,
+        "route_id": "R39-29",
+        "nama_jalan": "Jl. Jeruk No. 139",
+        "rt": "RT 012",
+        "rw": "RW 013",
+        "jarak_meter": 643,
+        "estimasi_menit": 13,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 38,
+        "route_id": "R39-38",
+        "nama_jalan": "Jl. Cempaka Putih No. 77",
+        "rt": "RT 011",
+        "rw": "RW 009",
+        "jarak_meter": 712,
+        "estimasi_menit": 14,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 40,
+        "route_id": "R39-40",
+        "nama_jalan": "Jl. Provinsi No. 30",
+        "rt": "RT 004",
+        "rw": "RW 006",
+        "jarak_meter": 1167,
+        "estimasi_menit": 23,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "koordinat": {
+      "x": 963,
+      "y": 364
+    },
+    "nomor_alamat": 545,
+    "kelurahan": "Jatinegara",
+    "kecamatan": "Pasar Rebo",
+    "kota_kabupaten": "Kabupaten Bekasi",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "81909",
+    "jalur": [
+      {
+        "target_id": 50,
+        "route_id": "R40-50",
+        "nama_jalan": "Jl. Gajah Mada No. 199",
+        "rt": "RT 018",
+        "rw": "RW 015",
+        "jarak_meter": 1024,
+        "estimasi_menit": 20,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 39,
+        "route_id": "R40-39",
+        "nama_jalan": "Jl. Cempaka Putih No. 31",
+        "rt": "RT 001",
+        "rw": "RW 013",
+        "jarak_meter": 1167,
+        "estimasi_menit": 23,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 30,
+        "route_id": "R40-30",
+        "nama_jalan": "Jl. Melati No. 14",
+        "rt": "RT 003",
+        "rw": "RW 015",
+        "jarak_meter": 1388,
+        "estimasi_menit": 28,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "koordinat": {
+      "x": 86,
+      "y": 471
+    },
+    "nomor_alamat": 868,
+    "kelurahan": "Cilincing",
+    "kecamatan": "Ciracas",
+    "kota_kabupaten": "Kabupaten Bandung",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "69151",
+    "jalur": [
+      {
+        "target_id": 42,
+        "route_id": "R41-42",
+        "nama_jalan": "Jl. Niaga No. 173",
+        "rt": "RT 020",
+        "rw": "RW 001",
+        "jarak_meter": 423,
+        "estimasi_menit": 8,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 51,
+        "route_id": "R41-51",
+        "nama_jalan": "Jl. Merdeka No. 74",
+        "rt": "RT 018",
+        "rw": "RW 001",
+        "jarak_meter": 875,
+        "estimasi_menit": 17,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 31,
+        "route_id": "R41-31",
+        "nama_jalan": "Jl. Bukit No. 160",
+        "rt": "RT 004",
+        "rw": "RW 006",
+        "jarak_meter": 981,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "koordinat": {
+      "x": 128,
+      "y": 476
+    },
+    "nomor_alamat": 323,
+    "kelurahan": "Mampang",
+    "kecamatan": "Cilandak",
+    "kota_kabupaten": "Kota Surabaya",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "17007",
+    "jalur": [
+      {
+        "target_id": 41,
+        "route_id": "R42-41",
+        "nama_jalan": "Jl. Hang Tuah No. 117",
+        "rt": "RT 013",
+        "rw": "RW 002",
+        "jarak_meter": 423,
+        "estimasi_menit": 8,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 43,
+        "route_id": "R42-43",
+        "nama_jalan": "Jl. Jawa No. 8",
+        "rt": "RT 010",
+        "rw": "RW 012",
+        "jarak_meter": 787,
+        "estimasi_menit": 16,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 52,
+        "route_id": "R42-52",
+        "nama_jalan": "Jl. Plaza No. 177",
+        "rt": "RT 009",
+        "rw": "RW 001",
+        "jarak_meter": 826,
+        "estimasi_menit": 17,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "koordinat": {
+      "x": 199,
+      "y": 442
+    },
+    "nomor_alamat": 857,
+    "kelurahan": "Pademangan",
+    "kecamatan": "Cilincing",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "15568",
+    "jalur": [
+      {
+        "target_id": 33,
+        "route_id": "R43-33",
+        "nama_jalan": "Jl. Hutan No. 137",
+        "rt": "RT 008",
+        "rw": "RW 007",
+        "jarak_meter": 759,
+        "estimasi_menit": 15,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 42,
+        "route_id": "R43-42",
+        "nama_jalan": "Jl. Sawit No. 168",
+        "rt": "RT 005",
+        "rw": "RW 006",
+        "jarak_meter": 787,
+        "estimasi_menit": 16,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 44,
+        "route_id": "R43-44",
+        "nama_jalan": "Jl. Sultan Agung No. 130",
+        "rt": "RT 011",
+        "rw": "RW 010",
+        "jarak_meter": 1110,
+        "estimasi_menit": 22,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "koordinat": {
+      "x": 304,
+      "y": 406
+    },
+    "nomor_alamat": 568,
+    "kelurahan": "Pancoran",
+    "kecamatan": "Makasar",
+    "kota_kabupaten": "Kabupaten Bandung",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "74282",
+    "jalur": [
+      {
+        "target_id": 34,
+        "route_id": "R44-34",
+        "nama_jalan": "Jl. Tol No. 116",
+        "rt": "RT 007",
+        "rw": "RW 010",
+        "jarak_meter": 482,
+        "estimasi_menit": 10,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 33,
+        "route_id": "R44-33",
+        "nama_jalan": "Jl. Papua No. 154",
+        "rt": "RT 001",
+        "rw": "RW 003",
+        "jarak_meter": 959,
+        "estimasi_menit": 19,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 43,
+        "route_id": "R44-43",
+        "nama_jalan": "Jl. Pasar No. 69",
+        "rt": "RT 007",
+        "rw": "RW 007",
+        "jarak_meter": 1110,
+        "estimasi_menit": 22,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "koordinat": {
+      "x": 462,
+      "y": 467
+    },
+    "nomor_alamat": 369,
+    "kelurahan": "Sukmajaya",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Kota Makassar",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "67422",
+    "jalur": [
+      {
+        "target_id": 46,
+        "route_id": "R45-46",
+        "nama_jalan": "Jl. Beringin No. 43",
+        "rt": "RT 014",
+        "rw": "RW 012",
+        "jarak_meter": 550,
+        "estimasi_menit": 11,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 55,
+        "route_id": "R45-55",
+        "nama_jalan": "Jl. Pemuda No. 53",
+        "rt": "RT 011",
+        "rw": "RW 005",
+        "jarak_meter": 787,
+        "estimasi_menit": 16,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 56,
+        "route_id": "R45-56",
+        "nama_jalan": "Jl. Laut No. 43",
+        "rt": "RT 014",
+        "rw": "RW 015",
+        "jarak_meter": 937,
+        "estimasi_menit": 19,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "koordinat": {
+      "x": 517,
+      "y": 467
+    },
+    "nomor_alamat": 451,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Duren Sawit",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "11664",
+    "jalur": [
+      {
+        "target_id": 45,
+        "route_id": "R46-45",
+        "nama_jalan": "Jl. Bypass No. 105",
+        "rt": "RT 017",
+        "rw": "RW 011",
+        "jarak_meter": 550,
+        "estimasi_menit": 11,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 56,
+        "route_id": "R46-56",
+        "nama_jalan": "Jl. Bank No. 22",
+        "rt": "RT 002",
+        "rw": "RW 007",
+        "jarak_meter": 722,
+        "estimasi_menit": 14,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 55,
+        "route_id": "R46-55",
+        "nama_jalan": "Jl. Niaga No. 159",
+        "rt": "RT 010",
+        "rw": "RW 010",
+        "jarak_meter": 1148,
+        "estimasi_menit": 23,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "koordinat": {
+      "x": 659,
+      "y": 473
+    },
+    "nomor_alamat": 76,
+    "kelurahan": "Mampang",
+    "kecamatan": "Tanah Abang",
+    "kota_kabupaten": "Kota Surabaya",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "48381",
+    "jalur": [
+      {
+        "target_id": 57,
+        "route_id": "R47-57",
+        "nama_jalan": "Jl. Pelabuhan No. 140",
+        "rt": "RT 006",
+        "rw": "RW 003",
+        "jarak_meter": 576,
+        "estimasi_menit": 12,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 58,
+        "route_id": "R47-58",
+        "nama_jalan": "Jl. Rukun Tetangga No. 3",
+        "rt": "RT 019",
+        "rw": "RW 011",
+        "jarak_meter": 968,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 48,
+        "route_id": "R47-48",
+        "nama_jalan": "Jl. Sumatra No. 181",
+        "rt": "RT 016",
+        "rw": "RW 011",
+        "jarak_meter": 1106,
+        "estimasi_menit": 22,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "koordinat": {
+      "x": 767,
+      "y": 449
+    },
+    "nomor_alamat": 995,
+    "kelurahan": "Koja",
+    "kecamatan": "Cakung",
+    "kota_kabupaten": "Jakarta Barat",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "70200",
+    "jalur": [
+      {
+        "target_id": 58,
+        "route_id": "R48-58",
+        "nama_jalan": "Jl. Gereja No. 86",
+        "rt": "RT 020",
+        "rw": "RW 010",
+        "jarak_meter": 490,
+        "estimasi_menit": 10,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 49,
+        "route_id": "R48-49",
+        "nama_jalan": "Jl. Cempaka Putih No. 150",
+        "rt": "RT 020",
+        "rw": "RW 014",
+        "jarak_meter": 763,
+        "estimasi_menit": 15,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 47,
+        "route_id": "R48-47",
+        "nama_jalan": "Jl. Rumah Sakit No. 1",
+        "rt": "RT 008",
+        "rw": "RW 005",
+        "jarak_meter": 1106,
+        "estimasi_menit": 22,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "koordinat": {
+      "x": 843,
+      "y": 456
+    },
+    "nomor_alamat": 679,
+    "kelurahan": "Penjagalan",
+    "kecamatan": "Cipayung",
+    "kota_kabupaten": "Kabupaten Bekasi",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "66441",
+    "jalur": [
+      {
+        "target_id": 50,
+        "route_id": "R49-50",
+        "nama_jalan": "Jl. Beringin No. 129",
+        "rt": "RT 016",
+        "rw": "RW 008",
+        "jarak_meter": 750,
+        "estimasi_menit": 15,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 48,
+        "route_id": "R49-48",
+        "nama_jalan": "Jl. Terminal No. 21",
+        "rt": "RT 008",
+        "rw": "RW 005",
+        "jarak_meter": 763,
+        "estimasi_menit": 15,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 58,
+        "route_id": "R49-58",
+        "nama_jalan": "Jl. Pulau No. 4",
+        "rt": "RT 009",
+        "rw": "RW 013",
+        "jarak_meter": 985,
+        "estimasi_menit": 20,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "koordinat": {
+      "x": 918,
+      "y": 456
+    },
+    "nomor_alamat": 708,
+    "kelurahan": "Setiabudi",
+    "kecamatan": "Cilandak",
+    "kota_kabupaten": "Tangerang Selatan",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "44194",
+    "jalur": [
+      {
+        "target_id": 49,
+        "route_id": "R50-49",
+        "nama_jalan": "Jl. Raya Darmo No. 103",
+        "rt": "RT 008",
+        "rw": "RW 015",
+        "jarak_meter": 750,
+        "estimasi_menit": 15,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 60,
+        "route_id": "R50-60",
+        "nama_jalan": "Jl. Letjen Suprapto No. 38",
+        "rt": "RT 015",
+        "rw": "RW 015",
+        "jarak_meter": 948,
+        "estimasi_menit": 19,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 40,
+        "route_id": "R50-40",
+        "nama_jalan": "Jl. Rukun Warga No. 152",
+        "rt": "RT 012",
+        "rw": "RW 006",
+        "jarak_meter": 1024,
+        "estimasi_menit": 20,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "koordinat": {
+      "x": 11,
+      "y": 516
+    },
+    "nomor_alamat": 380,
+    "kelurahan": "Sukmajaya",
+    "kecamatan": "Mampang Prapatan",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "52046",
+    "jalur": [
+      {
+        "target_id": 41,
+        "route_id": "R51-41",
+        "nama_jalan": "Jl. Plaza No. 126",
+        "rt": "RT 014",
+        "rw": "RW 002",
+        "jarak_meter": 875,
+        "estimasi_menit": 17,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 61,
+        "route_id": "R51-61",
+        "nama_jalan": "Jl. Sungai No. 148",
+        "rt": "RT 016",
+        "rw": "RW 004",
+        "jarak_meter": 949,
+        "estimasi_menit": 19,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 42,
+        "route_id": "R51-42",
+        "nama_jalan": "Jl. Cempaka Putih No. 99",
+        "rt": "RT 012",
+        "rw": "RW 014",
+        "jarak_meter": 1236,
+        "estimasi_menit": 25,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "koordinat": {
+      "x": 138,
+      "y": 558
+    },
+    "nomor_alamat": 96,
+    "kelurahan": "Makasar",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Kota Bandung",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "85434",
+    "jalur": [
+      {
+        "target_id": 62,
+        "route_id": "R52-62",
+        "nama_jalan": "Jl. Duku No. 134",
+        "rt": "RT 003",
+        "rw": "RW 005",
+        "jarak_meter": 710,
+        "estimasi_menit": 14,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 42,
+        "route_id": "R52-42",
+        "nama_jalan": "Jl. Riau No. 95",
+        "rt": "RT 006",
+        "rw": "RW 015",
+        "jarak_meter": 826,
+        "estimasi_menit": 17,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 53,
+        "route_id": "R52-53",
+        "nama_jalan": "Jl. Sultan Agung No. 69",
+        "rt": "RT 002",
+        "rw": "RW 012",
+        "jarak_meter": 911,
+        "estimasi_menit": 18,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "koordinat": {
+      "x": 229,
+      "y": 554
+    },
+    "nomor_alamat": 833,
+    "kelurahan": "Cengkareng",
+    "kecamatan": "Pancoran",
+    "kota_kabupaten": "Kabupaten Bogor",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "53786",
+    "jalur": [
+      {
+        "target_id": 63,
+        "route_id": "R53-63",
+        "nama_jalan": "Jl. Jendral Sudirman No. 193",
+        "rt": "RT 003",
+        "rw": "RW 014",
+        "jarak_meter": 698,
+        "estimasi_menit": 14,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 52,
+        "route_id": "R53-52",
+        "nama_jalan": "Jl. Riau No. 143",
+        "rt": "RT 005",
+        "rw": "RW 013",
+        "jarak_meter": 911,
+        "estimasi_menit": 18,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 54,
+        "route_id": "R53-54",
+        "nama_jalan": "Jl. Kenanga No. 106",
+        "rt": "RT 008",
+        "rw": "RW 014",
+        "jarak_meter": 1061,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "koordinat": {
+      "x": 334,
+      "y": 569
+    },
+    "nomor_alamat": 220,
+    "kelurahan": "Palmerah",
+    "kecamatan": "Menteng",
+    "kota_kabupaten": "Kota Manado",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "87904",
+    "jalur": [
+      {
+        "target_id": 63,
+        "route_id": "R54-63",
+        "nama_jalan": "Jl. Tanjung No. 154",
+        "rt": "RT 011",
+        "rw": "RW 003",
+        "jarak_meter": 846,
+        "estimasi_menit": 17,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 55,
+        "route_id": "R54-55",
+        "nama_jalan": "Jl. Duku No. 145",
+        "rt": "RT 007",
+        "rw": "RW 011",
+        "jarak_meter": 974,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 53,
+        "route_id": "R54-53",
+        "nama_jalan": "Jl. Rukun Tetangga No. 147",
+        "rt": "RT 018",
+        "rw": "RW 004",
+        "jarak_meter": 1061,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "koordinat": {
+      "x": 426,
+      "y": 537
+    },
+    "nomor_alamat": 509,
+    "kelurahan": "Setiabudi",
+    "kecamatan": "Palmerah",
+    "kota_kabupaten": "Kota Bogor",
+    "provinsi": "Sumatera Barat",
+    "kode_pos": "80052",
+    "jalur": [
+      {
+        "target_id": 45,
+        "route_id": "R55-45",
+        "nama_jalan": "Jl. Masjid No. 32",
+        "rt": "RT 016",
+        "rw": "RW 001",
+        "jarak_meter": 787,
+        "estimasi_menit": 16,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 56,
+        "route_id": "R55-56",
+        "nama_jalan": "Jl. Desa No. 115",
+        "rt": "RT 001",
+        "rw": "RW 009",
+        "jarak_meter": 960,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 54,
+        "route_id": "R55-54",
+        "nama_jalan": "Jl. Riau No. 192",
+        "rt": "RT 008",
+        "rw": "RW 012",
+        "jarak_meter": 974,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "koordinat": {
+      "x": 522,
+      "y": 539
+    },
+    "nomor_alamat": 843,
+    "kelurahan": "Setiabudi",
+    "kecamatan": "Mampang Prapatan",
+    "kota_kabupaten": "Kota Semarang",
+    "provinsi": "Riau",
+    "kode_pos": "16204",
+    "jalur": [
+      {
+        "target_id": 46,
+        "route_id": "R56-46",
+        "nama_jalan": "Jl. Sawit No. 164",
+        "rt": "RT 017",
+        "rw": "RW 009",
+        "jarak_meter": 722,
+        "estimasi_menit": 14,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 45,
+        "route_id": "R56-45",
+        "nama_jalan": "Jl. Gajah Mada No. 89",
+        "rt": "RT 020",
+        "rw": "RW 003",
+        "jarak_meter": 937,
+        "estimasi_menit": 19,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 55,
+        "route_id": "R56-55",
+        "nama_jalan": "Jl. Sungai No. 142",
+        "rt": "RT 009",
+        "rw": "RW 009",
+        "jarak_meter": 960,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "koordinat": {
+      "x": 642,
+      "y": 528
+    },
+    "nomor_alamat": 991,
+    "kelurahan": "Mampang",
+    "kecamatan": "Kembangan",
+    "kota_kabupaten": "Kota Cimahi",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "48070",
+    "jalur": [
+      {
+        "target_id": 47,
+        "route_id": "R57-47",
+        "nama_jalan": "Jl. Hang Tuah No. 43",
+        "rt": "RT 011",
+        "rw": "RW 015",
+        "jarak_meter": 576,
+        "estimasi_menit": 12,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 67,
+        "route_id": "R57-67",
+        "nama_jalan": "Jl. Beringin No. 126",
+        "rt": "RT 016",
+        "rw": "RW 002",
+        "jarak_meter": 986,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 58,
+        "route_id": "R57-58",
+        "nama_jalan": "Jl. Sekolah No. 96",
+        "rt": "RT 006",
+        "rw": "RW 011",
+        "jarak_meter": 1155,
+        "estimasi_menit": 23,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "koordinat": {
+      "x": 753,
+      "y": 496
+    },
+    "nomor_alamat": 737,
+    "kelurahan": "Kalideres",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "41526",
+    "jalur": [
+      {
+        "target_id": 48,
+        "route_id": "R58-48",
+        "nama_jalan": "Jl. Jawa No. 173",
+        "rt": "RT 011",
+        "rw": "RW 005",
+        "jarak_meter": 490,
+        "estimasi_menit": 10,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 47,
+        "route_id": "R58-47",
+        "nama_jalan": "Jl. Pinus No. 145",
+        "rt": "RT 012",
+        "rw": "RW 011",
+        "jarak_meter": 968,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 49,
+        "route_id": "R58-49",
+        "nama_jalan": "Jl. Sudirman No. 139",
+        "rt": "RT 006",
+        "rw": "RW 007",
+        "jarak_meter": 985,
+        "estimasi_menit": 20,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "koordinat": {
+      "x": 867,
+      "y": 559
+    },
+    "nomor_alamat": 113,
+    "kelurahan": "Tanjung Priok",
+    "kecamatan": "Pasar Minggu",
+    "kota_kabupaten": "Jakarta Selatan",
+    "provinsi": "Kalimantan Selatan",
+    "kode_pos": "40760",
+    "jalur": [
+      {
+        "target_id": 60,
+        "route_id": "R59-60",
+        "nama_jalan": "Jl. Lorong Baru No. 140",
+        "rt": "RT 014",
+        "rw": "RW 003",
+        "jarak_meter": 926,
+        "estimasi_menit": 19,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 69,
+        "route_id": "R59-69",
+        "nama_jalan": "Jl. Bank No. 151",
+        "rt": "RT 002",
+        "rw": "RW 011",
+        "jarak_meter": 1034,
+        "estimasi_menit": 21,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 49,
+        "route_id": "R59-49",
+        "nama_jalan": "Jl. Veteran No. 139",
+        "rt": "RT 009",
+        "rw": "RW 009",
+        "jarak_meter": 1058,
+        "estimasi_menit": 21,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "koordinat": {
+      "x": 958,
+      "y": 542
+    },
+    "nomor_alamat": 240,
+    "kelurahan": "Kebon Jeruk",
+    "kecamatan": "Cakung",
+    "kota_kabupaten": "Jakarta Barat",
+    "provinsi": "Sulawesi Selatan",
+    "kode_pos": "69118",
+    "jalur": [
+      {
+        "target_id": 70,
+        "route_id": "R60-70",
+        "nama_jalan": "Jl. Protokol No. 150",
+        "rt": "RT 019",
+        "rw": "RW 001",
+        "jarak_meter": 822,
+        "estimasi_menit": 16,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 59,
+        "route_id": "R60-59",
+        "nama_jalan": "Jl. Hutan No. 35",
+        "rt": "RT 005",
+        "rw": "RW 005",
+        "jarak_meter": 926,
+        "estimasi_menit": 19,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 50,
+        "route_id": "R60-50",
+        "nama_jalan": "Jl. Sekolah No. 90",
+        "rt": "RT 015",
+        "rw": "RW 013",
+        "jarak_meter": 948,
+        "estimasi_menit": 19,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "koordinat": {
+      "x": 30,
+      "y": 609
+    },
+    "nomor_alamat": 487,
+    "kelurahan": "Cilincing",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "90028",
+    "jalur": [
+      {
+        "target_id": 62,
+        "route_id": "R61-62",
+        "nama_jalan": "Jl. Jawa No. 130",
+        "rt": "RT 014",
+        "rw": "RW 015",
+        "jarak_meter": 674,
+        "estimasi_menit": 13,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 51,
+        "route_id": "R61-51",
+        "nama_jalan": "Jl. Cemara No. 5",
+        "rt": "RT 009",
+        "rw": "RW 007",
+        "jarak_meter": 949,
+        "estimasi_menit": 19,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 71,
+        "route_id": "R61-71",
+        "nama_jalan": "Jl. Basuki Rahmat No. 188",
+        "rt": "RT 017",
+        "rw": "RW 010",
+        "jarak_meter": 1098,
+        "estimasi_menit": 22,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "koordinat": {
+      "x": 97,
+      "y": 616
+    },
+    "nomor_alamat": 465,
+    "kelurahan": "Pancoran Mas",
+    "kecamatan": "Pademangan",
+    "kota_kabupaten": "Kota Bogor",
+    "provinsi": "Sulawesi Selatan",
+    "kode_pos": "81340",
+    "jalur": [
+      {
+        "target_id": 61,
+        "route_id": "R62-61",
+        "nama_jalan": "Jl. Rukun Tetangga No. 135",
+        "rt": "RT 007",
+        "rw": "RW 005",
+        "jarak_meter": 674,
+        "estimasi_menit": 13,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 52,
+        "route_id": "R62-52",
+        "nama_jalan": "Jl. Laut No. 142",
+        "rt": "RT 003",
+        "rw": "RW 006",
+        "jarak_meter": 710,
+        "estimasi_menit": 14,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 71,
+        "route_id": "R62-71",
+        "nama_jalan": "Jl. Riau No. 115",
+        "rt": "RT 011",
+        "rw": "RW 006",
+        "jarak_meter": 1114,
+        "estimasi_menit": 22,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "koordinat": {
+      "x": 263,
+      "y": 615
+    },
+    "nomor_alamat": 79,
+    "kelurahan": "Cengkareng",
+    "kecamatan": "Setiabudi",
+    "kota_kabupaten": "Jakarta Barat",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "10565",
+    "jalur": [
+      {
+        "target_id": 53,
+        "route_id": "R63-53",
+        "nama_jalan": "Jl. Jawa No. 61",
+        "rt": "RT 010",
+        "rw": "RW 008",
+        "jarak_meter": 698,
+        "estimasi_menit": 14,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 54,
+        "route_id": "R63-54",
+        "nama_jalan": "Jl. Gang Damai No. 27",
+        "rt": "RT 020",
+        "rw": "RW 008",
+        "jarak_meter": 846,
+        "estimasi_menit": 17,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 64,
+        "route_id": "R63-64",
+        "nama_jalan": "Jl. Desa No. 188",
+        "rt": "RT 008",
+        "rw": "RW 011",
+        "jarak_meter": 1270,
+        "estimasi_menit": 25,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "koordinat": {
+      "x": 377,
+      "y": 671
+    },
+    "nomor_alamat": 438,
+    "kelurahan": "Kebon Jeruk",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Kota Yogyakarta",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "16290",
+    "jalur": [
+      {
+        "target_id": 65,
+        "route_id": "R64-65",
+        "nama_jalan": "Jl. Veteran No. 116",
+        "rt": "RT 005",
+        "rw": "RW 010",
+        "jarak_meter": 707,
+        "estimasi_menit": 14,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 74,
+        "route_id": "R64-74",
+        "nama_jalan": "Jl. Ladang No. 32",
+        "rt": "RT 004",
+        "rw": "RW 012",
+        "jarak_meter": 953,
+        "estimasi_menit": 19,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 75,
+        "route_id": "R64-75",
+        "nama_jalan": "Jl. Boulevard No. 164",
+        "rt": "RT 016",
+        "rw": "RW 001",
+        "jarak_meter": 1035,
+        "estimasi_menit": 21,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "koordinat": {
+      "x": 447,
+      "y": 661
+    },
+    "nomor_alamat": 453,
+    "kelurahan": "Cakung",
+    "kecamatan": "Pesanggrahan",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "54035",
+    "jalur": [
+      {
+        "target_id": 64,
+        "route_id": "R65-64",
+        "nama_jalan": "Jl. Beringin No. 127",
+        "rt": "RT 009",
+        "rw": "RW 006",
+        "jarak_meter": 707,
+        "estimasi_menit": 14,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 75,
+        "route_id": "R65-75",
+        "nama_jalan": "Jl. Pahlawan No. 132",
+        "rt": "RT 015",
+        "rw": "RW 011",
+        "jarak_meter": 980,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 66,
+        "route_id": "R65-66",
+        "nama_jalan": "Jl. Sulawesi No. 56",
+        "rt": "RT 003",
+        "rw": "RW 008",
+        "jarak_meter": 1055,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "koordinat": {
+      "x": 549,
+      "y": 634
+    },
+    "nomor_alamat": 297,
+    "kelurahan": "Ciracas",
+    "kecamatan": "Tambora",
+    "kota_kabupaten": "Jakarta Selatan",
+    "provinsi": "Banten",
+    "kode_pos": "64157",
+    "jalur": [
+      {
+        "target_id": 67,
+        "route_id": "R66-67",
+        "nama_jalan": "Jl. Melati No. 63",
+        "rt": "RT 006",
+        "rw": "RW 010",
+        "jarak_meter": 824,
+        "estimasi_menit": 16,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 56,
+        "route_id": "R66-56",
+        "nama_jalan": "Jl. Sisingamangaraja No. 128",
+        "rt": "RT 003",
+        "rw": "RW 014",
+        "jarak_meter": 988,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 65,
+        "route_id": "R66-65",
+        "nama_jalan": "Jl. Raya Darmo No. 41",
+        "rt": "RT 013",
+        "rw": "RW 009",
+        "jarak_meter": 1055,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "koordinat": {
+      "x": 631,
+      "y": 626
+    },
+    "nomor_alamat": 368,
+    "kelurahan": "Ciracas",
+    "kecamatan": "Jatinegara",
+    "kota_kabupaten": "Kota Bekasi",
+    "provinsi": "Bali",
+    "kode_pos": "27881",
+    "jalur": [
+      {
+        "target_id": 66,
+        "route_id": "R67-66",
+        "nama_jalan": "Jl. Ir. H. Juanda No. 131",
+        "rt": "RT 014",
+        "rw": "RW 002",
+        "jarak_meter": 824,
+        "estimasi_menit": 16,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 57,
+        "route_id": "R67-57",
+        "nama_jalan": "Jl. Diponegoro No. 23",
+        "rt": "RT 008",
+        "rw": "RW 002",
+        "jarak_meter": 986,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 77,
+        "route_id": "R67-77",
+        "nama_jalan": "Jl. Kantor No. 135",
+        "rt": "RT 019",
+        "rw": "RW 003",
+        "jarak_meter": 1108,
+        "estimasi_menit": 22,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "koordinat": {
+      "x": 768,
+      "y": 622
+    },
+    "nomor_alamat": 184,
+    "kelurahan": "Cipayung",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Riau",
+    "kode_pos": "27640",
+    "jalur": [
+      {
+        "target_id": 69,
+        "route_id": "R68-69",
+        "nama_jalan": "Jl. Flores No. 130",
+        "rt": "RT 016",
+        "rw": "RW 012",
+        "jarak_meter": 573,
+        "estimasi_menit": 11,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 79,
+        "route_id": "R68-79",
+        "nama_jalan": "Jl. Provinsi No. 162",
+        "rt": "RT 010",
+        "rw": "RW 013",
+        "jarak_meter": 817,
+        "estimasi_menit": 16,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 78,
+        "route_id": "R68-78",
+        "nama_jalan": "Jl. Sumatra No. 190",
+        "rt": "RT 005",
+        "rw": "RW 015",
+        "jarak_meter": 1082,
+        "estimasi_menit": 22,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "koordinat": {
+      "x": 818,
+      "y": 650
+    },
+    "nomor_alamat": 953,
+    "kelurahan": "Kramat Jati",
+    "kecamatan": "Taman Sari",
+    "kota_kabupaten": "Kabupaten Bandung",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "68982",
+    "jalur": [
+      {
+        "target_id": 79,
+        "route_id": "R69-79",
+        "nama_jalan": "Jl. Salak No. 124",
+        "rt": "RT 003",
+        "rw": "RW 011",
+        "jarak_meter": 520,
+        "estimasi_menit": 10,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 68,
+        "route_id": "R69-68",
+        "nama_jalan": "Jl. Laut No. 165",
+        "rt": "RT 012",
+        "rw": "RW 013",
+        "jarak_meter": 573,
+        "estimasi_menit": 11,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 78,
+        "route_id": "R69-78",
+        "nama_jalan": "Jl. Imam Bonjol No. 15",
+        "rt": "RT 011",
+        "rw": "RW 012",
+        "jarak_meter": 977,
+        "estimasi_menit": 20,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "koordinat": {
+      "x": 977,
+      "y": 622
+    },
+    "nomor_alamat": 95,
+    "kelurahan": "Pancoran Mas",
+    "kecamatan": "Tanjung Priok",
+    "kota_kabupaten": "Kota Samarinda",
+    "provinsi": "Kalimantan Selatan",
+    "kode_pos": "69455",
+    "jalur": [
+      {
+        "target_id": 60,
+        "route_id": "R70-60",
+        "nama_jalan": "Jl. Sisingamangaraja No. 15",
+        "rt": "RT 013",
+        "rw": "RW 007",
+        "jarak_meter": 822,
+        "estimasi_menit": 16,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 59,
+        "route_id": "R70-59",
+        "nama_jalan": "Jl. Flamboyan No. 171",
+        "rt": "RT 019",
+        "rw": "RW 011",
+        "jarak_meter": 1268,
+        "estimasi_menit": 25,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 80,
+        "route_id": "R70-80",
+        "nama_jalan": "Jl. Kalimantan No. 49",
+        "rt": "RT 017",
+        "rw": "RW 008",
+        "jarak_meter": 1397,
+        "estimasi_menit": 28,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "koordinat": {
+      "x": 50,
+      "y": 717
+    },
+    "nomor_alamat": 943,
+    "kelurahan": "Cipayung",
+    "kecamatan": "Kelapa Gading",
+    "kota_kabupaten": "Jakarta Utara",
+    "provinsi": "Bali",
+    "kode_pos": "78123",
+    "jalur": [
+      {
+        "target_id": 81,
+        "route_id": "R71-81",
+        "nama_jalan": "Jl. Sudirman No. 190",
+        "rt": "RT 004",
+        "rw": "RW 010",
+        "jarak_meter": 1001,
+        "estimasi_menit": 20,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 61,
+        "route_id": "R71-61",
+        "nama_jalan": "Jl. Tol No. 119",
+        "rt": "RT 017",
+        "rw": "RW 002",
+        "jarak_meter": 1098,
+        "estimasi_menit": 22,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 62,
+        "route_id": "R71-62",
+        "nama_jalan": "Jl. Trans No. 113",
+        "rt": "RT 009",
+        "rw": "RW 001",
+        "jarak_meter": 1114,
+        "estimasi_menit": 22,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "koordinat": {
+      "x": 168,
+      "y": 769
+    },
+    "nomor_alamat": 338,
+    "kelurahan": "Grogol",
+    "kecamatan": "Kembangan",
+    "kota_kabupaten": "Kota Tangerang",
+    "provinsi": "Sulawesi Utara",
+    "kode_pos": "94937",
+    "jalur": [
+      {
+        "target_id": 73,
+        "route_id": "R72-73",
+        "nama_jalan": "Jl. Taman No. 88",
+        "rt": "RT 001",
+        "rw": "RW 004",
+        "jarak_meter": 480,
+        "estimasi_menit": 10,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 83,
+        "route_id": "R72-83",
+        "nama_jalan": "Jl. Kalimantan No. 75",
+        "rt": "RT 005",
+        "rw": "RW 006",
+        "jarak_meter": 590,
+        "estimasi_menit": 12,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R72-82",
+        "nama_jalan": "Jl. Salak No. 156",
+        "rt": "RT 013",
+        "rw": "RW 012",
+        "jarak_meter": 1042,
+        "estimasi_menit": 21,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "koordinat": {
+      "x": 216,
+      "y": 769
+    },
+    "nomor_alamat": 844,
+    "kelurahan": "Mampang",
+    "kecamatan": "Duren Sawit",
+    "kota_kabupaten": "Kota Manado",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "19897",
+    "jalur": [
+      {
+        "target_id": 83,
+        "route_id": "R73-83",
+        "nama_jalan": "Jl. Tanjung No. 9",
+        "rt": "RT 013",
+        "rw": "RW 010",
+        "jarak_meter": 473,
+        "estimasi_menit": 9,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 72,
+        "route_id": "R73-72",
+        "nama_jalan": "Jl. Hutan No. 50",
+        "rt": "RT 004",
+        "rw": "RW 002",
+        "jarak_meter": 480,
+        "estimasi_menit": 10,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R73-82",
+        "nama_jalan": "Jl. Basuki Rahmat No. 16",
+        "rt": "RT 001",
+        "rw": "RW 005",
+        "jarak_meter": 1176,
+        "estimasi_menit": 24,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "koordinat": {
+      "x": 356,
+      "y": 764
+    },
+    "nomor_alamat": 894,
+    "kelurahan": "Pancoran",
+    "kecamatan": "Senen",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "DKI Jakarta",
+    "kode_pos": "51451",
+    "jalur": [
+      {
+        "target_id": 75,
+        "route_id": "R74-75",
+        "nama_jalan": "Jl. Jawa No. 74",
+        "rt": "RT 012",
+        "rw": "RW 006",
+        "jarak_meter": 772,
+        "estimasi_menit": 15,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 64,
+        "route_id": "R74-64",
+        "nama_jalan": "Jl. Jawa No. 2",
+        "rt": "RT 014",
+        "rw": "RW 012",
+        "jarak_meter": 953,
+        "estimasi_menit": 19,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 84,
+        "route_id": "R74-84",
+        "nama_jalan": "Jl. Veteran No. 28",
+        "rt": "RT 020",
+        "rw": "RW 011",
+        "jarak_meter": 1094,
+        "estimasi_menit": 22,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "koordinat": {
+      "x": 433,
+      "y": 758
+    },
+    "nomor_alamat": 601,
+    "kelurahan": "Koja",
+    "kecamatan": "Jatinegara",
+    "kota_kabupaten": "Kota Yogyakarta",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "12321",
+    "jalur": [
+      {
+        "target_id": 74,
+        "route_id": "R75-74",
+        "nama_jalan": "Jl. Flores No. 172",
+        "rt": "RT 011",
+        "rw": "RW 013",
+        "jarak_meter": 772,
+        "estimasi_menit": 15,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 76,
+        "route_id": "R75-76",
+        "nama_jalan": "Jl. Akasia No. 179",
+        "rt": "RT 019",
+        "rw": "RW 008",
+        "jarak_meter": 793,
+        "estimasi_menit": 16,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 65,
+        "route_id": "R75-65",
+        "nama_jalan": "Jl. Sawit No. 185",
+        "rt": "RT 017",
+        "rw": "RW 009",
+        "jarak_meter": 980,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "koordinat": {
+      "x": 510,
+      "y": 777
+    },
+    "nomor_alamat": 502,
+    "kelurahan": "Kebayoran Baru",
+    "kecamatan": "Pancoran",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "34591",
+    "jalur": [
+      {
+        "target_id": 75,
+        "route_id": "R76-75",
+        "nama_jalan": "Jl. Pinus No. 105",
+        "rt": "RT 020",
+        "rw": "RW 014",
+        "jarak_meter": 793,
+        "estimasi_menit": 16,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 86,
+        "route_id": "R76-86",
+        "nama_jalan": "Jl. Dahlia No. 182",
+        "rt": "RT 006",
+        "rw": "RW 015",
+        "jarak_meter": 941,
+        "estimasi_menit": 19,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 85,
+        "route_id": "R76-85",
+        "nama_jalan": "Jl. Beringin No. 195",
+        "rt": "RT 013",
+        "rw": "RW 010",
+        "jarak_meter": 1284,
+        "estimasi_menit": 26,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "koordinat": {
+      "x": 651,
+      "y": 735
+    },
+    "nomor_alamat": 795,
+    "kelurahan": "Sukmajaya",
+    "kecamatan": "Cakung",
+    "kota_kabupaten": "Jakarta Utara",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "44221",
+    "jalur": [
+      {
+        "target_id": 67,
+        "route_id": "R77-67",
+        "nama_jalan": "Jl. Lingkar No. 61",
+        "rt": "RT 010",
+        "rw": "RW 014",
+        "jarak_meter": 1108,
+        "estimasi_menit": 22,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 78,
+        "route_id": "R77-78",
+        "nama_jalan": "Jl. Gereja No. 15",
+        "rt": "RT 010",
+        "rw": "RW 008",
+        "jarak_meter": 1111,
+        "estimasi_menit": 22,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 87,
+        "route_id": "R77-87",
+        "nama_jalan": "Jl. Rambutan No. 28",
+        "rt": "RT 010",
+        "rw": "RW 009",
+        "jarak_meter": 1340,
+        "estimasi_menit": 27,
+        "arah": "Selatan"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "koordinat": {
+      "x": 762,
+      "y": 730
+    },
+    "nomor_alamat": 201,
+    "kelurahan": "Makasar",
+    "kecamatan": "Ciracas",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Bali",
+    "kode_pos": "14380",
+    "jalur": [
+      {
+        "target_id": 79,
+        "route_id": "R78-79",
+        "nama_jalan": "Jl. Sultan Agung No. 131",
+        "rt": "RT 011",
+        "rw": "RW 010",
+        "jarak_meter": 482,
+        "estimasi_menit": 10,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 88,
+        "route_id": "R78-88",
+        "nama_jalan": "Jl. Stasiun No. 4",
+        "rt": "RT 005",
+        "rw": "RW 004",
+        "jarak_meter": 841,
+        "estimasi_menit": 17,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 69,
+        "route_id": "R78-69",
+        "nama_jalan": "Jl. Melati No. 4",
+        "rt": "RT 012",
+        "rw": "RW 007",
+        "jarak_meter": 977,
+        "estimasi_menit": 20,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "koordinat": {
+      "x": 798,
+      "y": 698
+    },
+    "nomor_alamat": 809,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Duren Sawit",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "64541",
+    "jalur": [
+      {
+        "target_id": 78,
+        "route_id": "R79-78",
+        "nama_jalan": "Jl. Danau No. 94",
+        "rt": "RT 005",
+        "rw": "RW 014",
+        "jarak_meter": 482,
+        "estimasi_menit": 10,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 69,
+        "route_id": "R79-69",
+        "nama_jalan": "Jl. Nangka No. 138",
+        "rt": "RT 009",
+        "rw": "RW 011",
+        "jarak_meter": 520,
+        "estimasi_menit": 10,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 68,
+        "route_id": "R79-68",
+        "nama_jalan": "Jl. Bypass No. 125",
+        "rt": "RT 001",
+        "rw": "RW 004",
+        "jarak_meter": 817,
+        "estimasi_menit": 16,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "koordinat": {
+      "x": 963,
+      "y": 761
+    },
+    "nomor_alamat": 1,
+    "kelurahan": "Makasar",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Kota Tangerang",
+    "provinsi": "Riau",
+    "kode_pos": "98740",
+    "jalur": [
+      {
+        "target_id": 90,
+        "route_id": "R80-90",
+        "nama_jalan": "Jl. Hang Tuah No. 96",
+        "rt": "RT 010",
+        "rw": "RW 002",
+        "jarak_meter": 783,
+        "estimasi_menit": 16,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 70,
+        "route_id": "R80-70",
+        "nama_jalan": "Jl. Laut No. 34",
+        "rt": "RT 007",
+        "rw": "RW 009",
+        "jarak_meter": 1397,
+        "estimasi_menit": 28,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 89,
+        "route_id": "R80-89",
+        "nama_jalan": "Jl. Sekolah No. 177",
+        "rt": "RT 001",
+        "rw": "RW 001",
+        "jarak_meter": 1761,
+        "estimasi_menit": 35,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "koordinat": {
+      "x": 55,
+      "y": 817
+    },
+    "nomor_alamat": 201,
+    "kelurahan": "Kramat Jati",
+    "kecamatan": "Kebon Jeruk",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "89156",
+    "jalur": [
+      {
+        "target_id": 71,
+        "route_id": "R81-71",
+        "nama_jalan": "Jl. Kantor No. 133",
+        "rt": "RT 005",
+        "rw": "RW 002",
+        "jarak_meter": 1001,
+        "estimasi_menit": 20,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 92,
+        "route_id": "R81-92",
+        "nama_jalan": "Jl. Ahmad Yani No. 153",
+        "rt": "RT 005",
+        "rw": "RW 008",
+        "jarak_meter": 1114,
+        "estimasi_menit": 22,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R81-82",
+        "nama_jalan": "Jl. Gajah Mada No. 27",
+        "rt": "RT 011",
+        "rw": "RW 002",
+        "jarak_meter": 1199,
+        "estimasi_menit": 24,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "koordinat": {
+      "x": 161,
+      "y": 873
+    },
+    "nomor_alamat": 734,
+    "kelurahan": "Mampang",
+    "kecamatan": "Kebon Jeruk",
+    "kota_kabupaten": "Kota Bogor",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "76769",
+    "jalur": [
+      {
+        "target_id": 92,
+        "route_id": "R82-92",
+        "nama_jalan": "Jl. Desa No. 75",
+        "rt": "RT 004",
+        "rw": "RW 013",
+        "jarak_meter": 720,
+        "estimasi_menit": 14,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 83,
+        "route_id": "R82-83",
+        "nama_jalan": "Jl. Kebun No. 196",
+        "rt": "RT 010",
+        "rw": "RW 010",
+        "jarak_meter": 728,
+        "estimasi_menit": 15,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 72,
+        "route_id": "R82-72",
+        "nama_jalan": "Jl. Sumatra No. 136",
+        "rt": "RT 001",
+        "rw": "RW 001",
+        "jarak_meter": 1042,
+        "estimasi_menit": 21,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "koordinat": {
+      "x": 205,
+      "y": 815
+    },
+    "nomor_alamat": 857,
+    "kelurahan": "Pesanggrahan",
+    "kecamatan": "Tebet",
+    "kota_kabupaten": "Kota Surabaya",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "45755",
+    "jalur": [
+      {
+        "target_id": 73,
+        "route_id": "R83-73",
+        "nama_jalan": "Jl. Teuku Umar No. 45",
+        "rt": "RT 013",
+        "rw": "RW 002",
+        "jarak_meter": 473,
+        "estimasi_menit": 9,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 72,
+        "route_id": "R83-72",
+        "nama_jalan": "Jl. Hang Tuah No. 196",
+        "rt": "RT 012",
+        "rw": "RW 002",
+        "jarak_meter": 590,
+        "estimasi_menit": 12,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R83-82",
+        "nama_jalan": "Jl. Salak No. 7",
+        "rt": "RT 001",
+        "rw": "RW 011",
+        "jarak_meter": 728,
+        "estimasi_menit": 15,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "koordinat": {
+      "x": 333,
+      "y": 871
+    },
+    "nomor_alamat": 754,
+    "kelurahan": "Duren Sawit",
+    "kecamatan": "Ciracas",
+    "kota_kabupaten": "Kota Cimahi",
+    "provinsi": "Sulawesi Selatan",
+    "kode_pos": "86663",
+    "jalur": [
+      {
+        "target_id": 94,
+        "route_id": "R84-94",
+        "nama_jalan": "Jl. Desa No. 172",
+        "rt": "RT 005",
+        "rw": "RW 002",
+        "jarak_meter": 682,
+        "estimasi_menit": 14,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 85,
+        "route_id": "R84-85",
+        "nama_jalan": "Jl. Sulawesi No. 117",
+        "rt": "RT 005",
+        "rw": "RW 012",
+        "jarak_meter": 993,
+        "estimasi_menit": 20,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 74,
+        "route_id": "R84-74",
+        "nama_jalan": "Jl. Gunung No. 93",
+        "rt": "RT 009",
+        "rw": "RW 004",
+        "jarak_meter": 1094,
+        "estimasi_menit": 22,
+        "arah": "Utara"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "koordinat": {
+      "x": 432,
+      "y": 879
+    },
+    "nomor_alamat": 909,
+    "kelurahan": "Cilincing",
+    "kecamatan": "Pademangan",
+    "kota_kabupaten": "Kabupaten Bandung",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "38976",
+    "jalur": [
+      {
+        "target_id": 95,
+        "route_id": "R85-95",
+        "nama_jalan": "Jl. Trans No. 42",
+        "rt": "RT 012",
+        "rw": "RW 011",
+        "jarak_meter": 794,
+        "estimasi_menit": 16,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 84,
+        "route_id": "R85-84",
+        "nama_jalan": "Jl. Pahlawan No. 12",
+        "rt": "RT 005",
+        "rw": "RW 003",
+        "jarak_meter": 993,
+        "estimasi_menit": 20,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 86,
+        "route_id": "R85-86",
+        "nama_jalan": "Jl. Bougenville No. 184",
+        "rt": "RT 004",
+        "rw": "RW 015",
+        "jarak_meter": 1026,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "koordinat": {
+      "x": 534,
+      "y": 868
+    },
+    "nomor_alamat": 294,
+    "kelurahan": "Kebayoran Baru",
+    "kecamatan": "Tambora",
+    "kota_kabupaten": "Kabupaten Bogor",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "82991",
+    "jalur": [
+      {
+        "target_id": 96,
+        "route_id": "R86-96",
+        "nama_jalan": "Jl. Kenanga No. 182",
+        "rt": "RT 016",
+        "rw": "RW 001",
+        "jarak_meter": 427,
+        "estimasi_menit": 9,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 76,
+        "route_id": "R86-76",
+        "nama_jalan": "Jl. Gunung No. 27",
+        "rt": "RT 011",
+        "rw": "RW 009",
+        "jarak_meter": 941,
+        "estimasi_menit": 19,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 85,
+        "route_id": "R86-85",
+        "nama_jalan": "Jl. Gunung No. 98",
+        "rt": "RT 017",
+        "rw": "RW 007",
+        "jarak_meter": 1026,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "koordinat": {
+      "x": 648,
+      "y": 869
+    },
+    "nomor_alamat": 908,
+    "kelurahan": "Koja",
+    "kecamatan": "Mampang Prapatan",
+    "kota_kabupaten": "Kota Bogor",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "84327",
+    "jalur": [
+      {
+        "target_id": 97,
+        "route_id": "R87-97",
+        "nama_jalan": "Jl. Beringin No. 169",
+        "rt": "RT 010",
+        "rw": "RW 012",
+        "jarak_meter": 686,
+        "estimasi_menit": 14,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 96,
+        "route_id": "R87-96",
+        "nama_jalan": "Jl. Rukun Tetangga No. 195",
+        "rt": "RT 006",
+        "rw": "RW 009",
+        "jarak_meter": 1064,
+        "estimasi_menit": 21,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 86,
+        "route_id": "R87-86",
+        "nama_jalan": "Jl. Basuki Rahmat No. 196",
+        "rt": "RT 018",
+        "rw": "RW 005",
+        "jarak_meter": 1140,
+        "estimasi_menit": 23,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "koordinat": {
+      "x": 766,
+      "y": 814
+    },
+    "nomor_alamat": 785,
+    "kelurahan": "Kramat Jati",
+    "kecamatan": "Menteng",
+    "kota_kabupaten": "Kabupaten Bekasi",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "91038",
+    "jalur": [
+      {
+        "target_id": 89,
+        "route_id": "R88-89",
+        "nama_jalan": "Jl. Riau No. 19",
+        "rt": "RT 002",
+        "rw": "RW 009",
+        "jarak_meter": 666,
+        "estimasi_menit": 13,
+        "arah": "Tenggara"
+      },
+      {
+        "target_id": 78,
+        "route_id": "R88-78",
+        "nama_jalan": "Jl. Desa No. 36",
+        "rt": "RT 003",
+        "rw": "RW 008",
+        "jarak_meter": 841,
+        "estimasi_menit": 17,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 99,
+        "route_id": "R88-99",
+        "nama_jalan": "Jl. Veteran No. 48",
+        "rt": "RT 016",
+        "rw": "RW 013",
+        "jarak_meter": 1006,
+        "estimasi_menit": 20,
+        "arah": "Tenggara"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "koordinat": {
+      "x": 816,
+      "y": 858
+    },
+    "nomor_alamat": 992,
+    "kelurahan": "Beji",
+    "kecamatan": "Gambir",
+    "kota_kabupaten": "Kota Manado",
+    "provinsi": "DI Yogyakarta",
+    "kode_pos": "53727",
+    "jalur": [
+      {
+        "target_id": 99,
+        "route_id": "R89-99",
+        "nama_jalan": "Jl. Letjen Suprapto No. 158",
+        "rt": "RT 010",
+        "rw": "RW 002",
+        "jarak_meter": 475,
+        "estimasi_menit": 10,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 88,
+        "route_id": "R89-88",
+        "nama_jalan": "Jl. Diponegoro No. 182",
+        "rt": "RT 008",
+        "rw": "RW 012",
+        "jarak_meter": 666,
+        "estimasi_menit": 13,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 98,
+        "route_id": "R89-98",
+        "nama_jalan": "Jl. Flores No. 52",
+        "rt": "RT 014",
+        "rw": "RW 005",
+        "jarak_meter": 1329,
+        "estimasi_menit": 27,
+        "arah": "Barat Daya"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "koordinat": {
+      "x": 956,
+      "y": 839
+    },
+    "nomor_alamat": 612,
+    "kelurahan": "Jatinegara",
+    "kecamatan": "Palmerah",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Banten",
+    "kode_pos": "62873",
+    "jalur": [
+      {
+        "target_id": 80,
+        "route_id": "R90-80",
+        "nama_jalan": "Jl. Bambu No. 100",
+        "rt": "RT 010",
+        "rw": "RW 007",
+        "jarak_meter": 783,
+        "estimasi_menit": 16,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 100,
+        "route_id": "R90-100",
+        "nama_jalan": "Jl. Lombok No. 156",
+        "rt": "RT 016",
+        "rw": "RW 001",
+        "jarak_meter": 1054,
+        "estimasi_menit": 21,
+        "arah": "Selatan"
+      },
+      {
+        "target_id": 89,
+        "route_id": "R90-89",
+        "nama_jalan": "Jl. Kantor No. 67",
+        "rt": "RT 014",
+        "rw": "RW 007",
+        "jarak_meter": 1413,
+        "estimasi_menit": 28,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "koordinat": {
+      "x": 15,
+      "y": 934
+    },
+    "nomor_alamat": 781,
+    "kelurahan": "Kebayoran Baru",
+    "kecamatan": "Kebayoran Baru",
+    "kota_kabupaten": "Jakarta Timur",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "45763",
+    "jalur": [
+      {
+        "target_id": 92,
+        "route_id": "R91-92",
+        "nama_jalan": "Jl. Dahlia No. 54",
+        "rt": "RT 016",
+        "rw": "RW 005",
+        "jarak_meter": 906,
+        "estimasi_menit": 18,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 81,
+        "route_id": "R91-81",
+        "nama_jalan": "Jl. Lingkar No. 18",
+        "rt": "RT 003",
+        "rw": "RW 014",
+        "jarak_meter": 1236,
+        "estimasi_menit": 25,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R91-82",
+        "nama_jalan": "Jl. Kenanga No. 132",
+        "rt": "RT 007",
+        "rw": "RW 011",
+        "jarak_meter": 1582,
+        "estimasi_menit": 32,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "koordinat": {
+      "x": 104,
+      "y": 917
+    },
+    "nomor_alamat": 396,
+    "kelurahan": "Palmerah",
+    "kecamatan": "Kebon Jeruk",
+    "kota_kabupaten": "Kota Yogyakarta",
+    "provinsi": "Sumatera Selatan",
+    "kode_pos": "96093",
+    "jalur": [
+      {
+        "target_id": 82,
+        "route_id": "R92-82",
+        "nama_jalan": "Jl. Masjid No. 93",
+        "rt": "RT 006",
+        "rw": "RW 012",
+        "jarak_meter": 720,
+        "estimasi_menit": 14,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 91,
+        "route_id": "R92-91",
+        "nama_jalan": "Jl. Sawah No. 103",
+        "rt": "RT 013",
+        "rw": "RW 002",
+        "jarak_meter": 906,
+        "estimasi_menit": 18,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 81,
+        "route_id": "R92-81",
+        "nama_jalan": "Jl. Hutan No. 40",
+        "rt": "RT 002",
+        "rw": "RW 015",
+        "jarak_meter": 1114,
+        "estimasi_menit": 22,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "koordinat": {
+      "x": 231,
+      "y": 959
+    },
+    "nomor_alamat": 993,
+    "kelurahan": "Makasar",
+    "kecamatan": "Cilincing",
+    "kota_kabupaten": "Kota Palembang",
+    "provinsi": "Bali",
+    "kode_pos": "63192",
+    "jalur": [
+      {
+        "target_id": 94,
+        "route_id": "R93-94",
+        "nama_jalan": "Jl. Cempaka Putih No. 187",
+        "rt": "RT 008",
+        "rw": "RW 007",
+        "jarak_meter": 878,
+        "estimasi_menit": 18,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 82,
+        "route_id": "R93-82",
+        "nama_jalan": "Jl. Cut Nyak Dien No. 81",
+        "rt": "RT 003",
+        "rw": "RW 002",
+        "jarak_meter": 1109,
+        "estimasi_menit": 22,
+        "arah": "Barat Laut"
+      },
+      {
+        "target_id": 92,
+        "route_id": "R93-92",
+        "nama_jalan": "Jl. Pelabuhan No. 156",
+        "rt": "RT 016",
+        "rw": "RW 010",
+        "jarak_meter": 1338,
+        "estimasi_menit": 27,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "koordinat": {
+      "x": 316,
+      "y": 937
+    },
+    "nomor_alamat": 351,
+    "kelurahan": "Cilincing",
+    "kecamatan": "Pancoran",
+    "kota_kabupaten": "Kota Yogyakarta",
+    "provinsi": "Jawa Timur",
+    "kode_pos": "72637",
+    "jalur": [
+      {
+        "target_id": 84,
+        "route_id": "R94-84",
+        "nama_jalan": "Jl. Bali No. 36",
+        "rt": "RT 002",
+        "rw": "RW 011",
+        "jarak_meter": 682,
+        "estimasi_menit": 14,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 93,
+        "route_id": "R94-93",
+        "nama_jalan": "Jl. Bambu No. 45",
+        "rt": "RT 007",
+        "rw": "RW 011",
+        "jarak_meter": 878,
+        "estimasi_menit": 18,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 85,
+        "route_id": "R94-85",
+        "nama_jalan": "Jl. Tanjung No. 114",
+        "rt": "RT 016",
+        "rw": "RW 004",
+        "jarak_meter": 1297,
+        "estimasi_menit": 26,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "koordinat": {
+      "x": 447,
+      "y": 957
+    },
+    "nomor_alamat": 535,
+    "kelurahan": "Tebet",
+    "kecamatan": "Cipayung",
+    "kota_kabupaten": "Kota Pekanbaru",
+    "provinsi": "Kalimantan Timur",
+    "kode_pos": "96889",
+    "jalur": [
+      {
+        "target_id": 85,
+        "route_id": "R95-85",
+        "nama_jalan": "Jl. Teuku Umar No. 121",
+        "rt": "RT 007",
+        "rw": "RW 004",
+        "jarak_meter": 794,
+        "estimasi_menit": 16,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 96,
+        "route_id": "R95-96",
+        "nama_jalan": "Jl. Pinus No. 167",
+        "rt": "RT 016",
+        "rw": "RW 002",
+        "jarak_meter": 1132,
+        "estimasi_menit": 23,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 86,
+        "route_id": "R95-86",
+        "nama_jalan": "Jl. Anggrek No. 117",
+        "rt": "RT 012",
+        "rw": "RW 003",
+        "jarak_meter": 1245,
+        "estimasi_menit": 25,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "koordinat": {
+      "x": 549,
+      "y": 908
+    },
+    "nomor_alamat": 266,
+    "kelurahan": "Penjagalan",
+    "kecamatan": "Makasar",
+    "kota_kabupaten": "Jakarta Pusat",
+    "provinsi": "Sulawesi Selatan",
+    "kode_pos": "77167",
+    "jalur": [
+      {
+        "target_id": 86,
+        "route_id": "R96-86",
+        "nama_jalan": "Jl. Nasional No. 2",
+        "rt": "RT 011",
+        "rw": "RW 006",
+        "jarak_meter": 427,
+        "estimasi_menit": 9,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 87,
+        "route_id": "R96-87",
+        "nama_jalan": "Jl. Niaga No. 126",
+        "rt": "RT 019",
+        "rw": "RW 001",
+        "jarak_meter": 1064,
+        "estimasi_menit": 21,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 97,
+        "route_id": "R96-97",
+        "nama_jalan": "Jl. Bypass No. 157",
+        "rt": "RT 006",
+        "rw": "RW 003",
+        "jarak_meter": 1118,
+        "estimasi_menit": 22,
+        "arah": "Timur"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "koordinat": {
+      "x": 657,
+      "y": 937
+    },
+    "nomor_alamat": 369,
+    "kelurahan": "Pluit",
+    "kecamatan": "Cengkareng",
+    "kota_kabupaten": "Kota Cimahi",
+    "provinsi": "Jawa Tengah",
+    "kode_pos": "82563",
+    "jalur": [
+      {
+        "target_id": 87,
+        "route_id": "R97-87",
+        "nama_jalan": "Jl. Lorong Baru No. 160",
+        "rt": "RT 011",
+        "rw": "RW 006",
+        "jarak_meter": 686,
+        "estimasi_menit": 14,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 98,
+        "route_id": "R97-98",
+        "nama_jalan": "Jl. Sawah No. 144",
+        "rt": "RT 007",
+        "rw": "RW 002",
+        "jarak_meter": 883,
+        "estimasi_menit": 18,
+        "arah": "Timur"
+      },
+      {
+        "target_id": 96,
+        "route_id": "R97-96",
+        "nama_jalan": "Jl. Sisingamangaraja No. 174",
+        "rt": "RT 020",
+        "rw": "RW 005",
+        "jarak_meter": 1118,
+        "estimasi_menit": 22,
+        "arah": "Barat"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "koordinat": {
+      "x": 740,
+      "y": 967
+    },
+    "nomor_alamat": 620,
+    "kelurahan": "Pasar Rebo",
+    "kecamatan": "Cempaka Putih",
+    "kota_kabupaten": "Tangerang Selatan",
+    "provinsi": "Jawa Barat",
+    "kode_pos": "42969",
+    "jalur": [
+      {
+        "target_id": 97,
+        "route_id": "R98-97",
+        "nama_jalan": "Jl. Jawa No. 146",
+        "rt": "RT 015",
+        "rw": "RW 007",
+        "jarak_meter": 883,
+        "estimasi_menit": 18,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 99,
+        "route_id": "R98-99",
+        "nama_jalan": "Jl. Taman No. 143",
+        "rt": "RT 019",
+        "rw": "RW 011",
+        "jarak_meter": 928,
+        "estimasi_menit": 19,
+        "arah": "Timur Laut"
+      },
+      {
+        "target_id": 89,
+        "route_id": "R98-89",
+        "nama_jalan": "Jl. Dahlia No. 188",
+        "rt": "RT 001",
+        "rw": "RW 015",
+        "jarak_meter": 1329,
+        "estimasi_menit": 27,
+        "arah": "Timur Laut"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "koordinat": {
+      "x": 809,
+      "y": 905
+    },
+    "nomor_alamat": 189,
+    "kelurahan": "Pulogadung",
+    "kecamatan": "Kramat Jati",
+    "kota_kabupaten": "Kota Depok",
+    "provinsi": "Sumatera Utara",
+    "kode_pos": "42103",
+    "jalur": [
+      {
+        "target_id": 89,
+        "route_id": "R99-89",
+        "nama_jalan": "Jl. Sungai No. 13",
+        "rt": "RT 009",
+        "rw": "RW 010",
+        "jarak_meter": 475,
+        "estimasi_menit": 10,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 98,
+        "route_id": "R99-98",
+        "nama_jalan": "Jl. Bank No. 157",
+        "rt": "RT 020",
+        "rw": "RW 015",
+        "jarak_meter": 928,
+        "estimasi_menit": 19,
+        "arah": "Barat Daya"
+      },
+      {
+        "target_id": 88,
+        "route_id": "R99-88",
+        "nama_jalan": "Jl. Dahlia No. 106",
+        "rt": "RT 013",
+        "rw": "RW 001",
+        "jarak_meter": 1006,
+        "estimasi_menit": 20,
+        "arah": "Barat Laut"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "koordinat": {
+      "x": 947,
+      "y": 944
+    },
+    "nomor_alamat": 996,
+    "kelurahan": "Cengkareng",
+    "kecamatan": "Cipayung",
+    "kota_kabupaten": "Kota Tangerang",
+    "provinsi": "Bali",
+    "kode_pos": "23724",
+    "jalur": [
+      {
+        "target_id": 90,
+        "route_id": "R100-90",
+        "nama_jalan": "Jl. Hutan No. 97",
+        "rt": "RT 006",
+        "rw": "RW 009",
+        "jarak_meter": 1054,
+        "estimasi_menit": 21,
+        "arah": "Utara"
+      },
+      {
+        "target_id": 99,
+        "route_id": "R100-99",
+        "nama_jalan": "Jl. Rambutan No. 193",
+        "rt": "RT 004",
+        "rw": "RW 006",
+        "jarak_meter": 1434,
+        "estimasi_menit": 29,
+        "arah": "Barat"
+      },
+      {
+        "target_id": 89,
+        "route_id": "R100-89",
+        "nama_jalan": "Jl. Rukun Tetangga No. 157",
+        "rt": "RT 015",
+        "rw": "RW 004",
+        "jarak_meter": 1567,
+        "estimasi_menit": 31,
+        "arah": "Barat Laut"
+      }
+    ]
+  }
+]

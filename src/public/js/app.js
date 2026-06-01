@@ -340,7 +340,7 @@ function drawNode(item, time) {
     const isA = pointA && pointA.id === item.id;
     const isB = pointB && pointB.id === item.id;
 
-    // Outer glow
+    // Outer glow for key points
     if (isSelected || isHovered || isA || isB) {
         const pulse = Math.sin(time / 200) * 5 + 15;
         const grad = ctx.createRadialGradient(x, y, 0, x, y, pulse * scale);
@@ -358,16 +358,29 @@ function drawNode(item, time) {
         ctx.fill();
     }
 
-    // Core dot
-    let dotColor = 'rgba(255,255,255,0.4)';
-    if (isA) dotColor = varToHex('--primary-glow');
-    else if (isB) dotColor = varToHex('--secondary-glow');
-    else if (isSelected) dotColor = 'white';
-    else if (isHovered) dotColor = 'rgba(255,255,255,0.8)';
+    // Core dot (Nutrient appearance for normal nodes)
+    let dotColor = 'rgba(255, 255, 255, 0.15)'; // Dim nutrient
+    let radius = 2 * scale;
+
+    if (isA) {
+        dotColor = varToHex('--primary-glow');
+        radius = 6 * scale;
+    } else if (isB) {
+        dotColor = varToHex('--secondary-glow');
+        radius = 8 * scale; // Food is slightly larger/more attractive
+        // Pulsing effect for food
+        radius += Math.sin(time / 300) * 2 * scale;
+    } else if (isSelected) {
+        dotColor = 'white';
+        radius = 5 * scale;
+    } else if (isHovered) {
+        dotColor = 'rgba(255, 255, 255, 0.8)';
+        radius = 4 * scale;
+    }
 
     ctx.fillStyle = dotColor;
     ctx.beginPath();
-    ctx.arc(x, y, (isSelected || isA || isB ? 6 : 3) * scale, 0, Math.PI * 2);
+    ctx.arc(x, y, radius, 0, Math.PI * 2);
     ctx.fill();
 
     // ID Label if hovered
@@ -391,18 +404,17 @@ async function calculateRoute() {
     
     const btn = document.getElementById('btn-find-path');
     btn.disabled = true;
-    btn.textContent = 'Simulating Physarum...';
+    btn.textContent = 'Searching...';
     
     // Start animation state
     isSearching = true;
     currentPath = null;
     searchBranches = [];
     
-    // Initialize search branches starting from both Point A and Point B
+    // Initialize search branches starting only from Point A (the Organism)
     for(let i=0; i<EXPLORE_COUNT; i++) {
-        const startFromA = i % 2 === 0;
-        const origin = startFromA ? pointA : pointB;
-        const destination = startFromA ? pointB : pointA;
+        const origin = pointA;
+        const destination = pointB;
         
         searchBranches.push({
             originId: origin.id,
@@ -410,7 +422,7 @@ async function calculateRoute() {
             currentId: origin.id,
             path: [origin],
             finished: false,
-            color: startFromA ? varToHex('--primary-glow') : varToHex('--secondary-glow'),
+            color: varToHex('--primary-glow'), // Cyan for organism
             speed: 0.05 + Math.random() * 0.1,
             growthProgress: 0,
             opacity: 0.4
@@ -437,15 +449,15 @@ async function calculateRoute() {
             showRouteInfo(result);
         } else {
             isSearching = false;
-            alert('Physarum Solver failed: ' + result.error);
+            alert('Gagal menemukan jalur: ' + result.error);
         }
     } catch (err) {
         console.error('Error calculating route:', err);
         isSearching = false;
-        alert('Error connecting to server');
+        alert('Gagal menghubungkan ke server');
     } finally {
         btn.disabled = false;
-        btn.textContent = 'Run Physarum Solver';
+        btn.textContent = 'Simulate';
     }
 }
 
@@ -510,11 +522,11 @@ function showRouteInfo(data) {
     
     panel.classList.add('active');
     summary.innerHTML = `
-        <div style="color: var(--primary-glow); font-weight: bold;">Physarum Solver Results</div>
-        <div style="margin-top: 5px;">
+        <div style="color: var(--secondary-glow); font-weight: bold;">Result Simulate</div>
+        <div style="margin-top: 5px; color: var(--text-color);">
             Distance: ${(data.total_distance / 1000).toFixed(2)} km<br>
-            Est. Time: ${data.total_time} minutes<br>
-            Nodes: ${data.path_ids.length}
+            Est. Time: ${data.total_time} menit<br>
+            Nodes: ${data.path_ids.length} nodes
         </div>
     `;
 }
@@ -527,7 +539,7 @@ function clearRoute() {
     searchInputB.value = '';
     document.getElementById('route-panel').classList.remove('active');
     document.getElementById('btn-find-path').disabled = true;
-    document.getElementById('btn-find-path').textContent = 'Run Physarum Solver';
+    document.getElementById('btn-find-path').textContent = 'Simulate';
     renderList(addressData);
 }
 
